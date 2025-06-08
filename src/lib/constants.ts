@@ -5,10 +5,10 @@ import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 
 export const NavLinks = [
-  { id: 1, name: "Home", path: "/", icon: House },
-  { id: 2, name: "Experience", path: "/", icon: BriefcaseBusiness },
-  { id: 3, name: "Projects", path: "/", icon: FolderGit2 },
-  { id: 3, name: "Reviews", path: "/", icon: Star },
+  { id: 1, name: "Home", url: "/", icon: House },
+  { id: 2, name: "Experience", url: "/", icon: BriefcaseBusiness },
+  { id: 3, name: "Projects", url: "/", icon: FolderGit2 },
+  { id: 3, name: "Reviews", url: "/", icon: Star },
 ];
 
 export const firstName = "Haider";
