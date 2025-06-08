@@ -1,5 +1,5 @@
 import { motion, useSpring } from "motion/react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, } from "react";
 import type { FC } from "react";
 import type { JSX } from "react";
 
@@ -149,11 +149,11 @@ export function SmoothCursor({
         previousAngle.current = currentAngle;
 
         scale.set(0.95);
-        setIsMoving(true);
+        // setIsMoving(true);
 
         const timeout = setTimeout(() => {
           scale.set(1);
-          setIsMoving(false);
+          // setIsMoving(false);
         }, 150);
 
         return () => clearTimeout(timeout);
