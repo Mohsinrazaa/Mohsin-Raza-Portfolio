@@ -1,0 +1,119 @@
+import { useState } from "react";
+import StackingCards, { StackingCardItem } from "./ui/stacking-cards";
+import {
+  GitHubProfile,
+  ProjectCardsData,
+  ProjectsSectionHeading,
+  ProjectsSectionSubHeading,
+} from "@/lib/constants";
+import { cn } from "@/lib/utils";
+import MaxWidthWrapper from "./max-width-wrapper";
+import { GithubProjectsBtn } from "./ui/github-projects-btn";
+import { VisitLiveSiteBtn } from "./ui/visit-live-site-btn";
+import { GithubIconBtn } from "./ui/github-icon-btn";
+import { Link } from "react-router";
+
+const ExperienceSection = () => {
+  // @ts-ignore
+  const [container, setContainer] = useState<HTMLElement | null>(null);
+  // ref={(node) => setContainer(node)}
+  return (
+    <div className="z-[2]">
+      <MaxWidthWrapper>
+        <div className="relative z-[2] pt-32 items-center justify-center flex flex-col bg-rd-200 pb-52">
+          <div className="relative font-myMainFont w-full text-2xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
+            {ProjectsSectionHeading}
+          </div>
+          <p className="text-myPalette9 text-lg font-medium text-center font-myMainFont mt-3">
+            {ProjectsSectionSubHeading}
+          </p>
+          <Link target="_blank" to={GitHubProfile} className="cursor-none">
+            <GithubProjectsBtn />
+          </Link>
+        </div>
+        <div className="relative z-[2] -mt-56 mb-6">
+          <StackingCards
+            totalCards={ProjectCardsData.length}
+            scrollOptons={{ container: { current: container } }}
+          >
+            {ProjectCardsData.map((project, index) => {
+              return (
+                <StackingCardItem
+                  key={index}
+                  index={index}
+                  className="h-[570px]"
+                >
+                  <div
+                    className={cn(
+                      "h-[80%] sm:h-[70%] bg-white flex-col sm:flex-row gap-8 aspect-video px-8 py-8 flex w-11/12 rounded-3xl mx-auto relative border border-myPalette2 backdrop-blur-sm shadow-lg"
+                    )}
+                  >
+                    <div className="flex-1 flex flex-col justify-between font-myMainFont">
+                      <div>
+                        <p className="font-bold text-md mb-2 flex flex-row items-center gap-2">
+                          {project.type}
+                          <p className="h-5 w-0.5 bg-myPalette6" />
+                          {project.year}
+                        </p>
+                        <h3 className="font-bold text-3xl">{project.title}</h3>
+                        <div className="w-full h-[1px] bg-myPalette6 my-5" />
+                        <p className="font-normal text-md">
+                          {project.description}
+                        </p>
+                        <div className="flex flex-wrap items-center mt-5">
+                          {project.technologies.map((techstack, techIndex) => (
+                            <div
+                              key={techIndex}
+                              className="flex items-center text-myPalette9 px-3 text-xs py-1 border border-myPalette9 rounded-full mr-2 mb-2"
+                            >
+                              <div
+                                className="rounded-full h-2 w-2 mr-2"
+                                style={{
+                                  backgroundColor:
+                                    project.techColors[
+                                      techIndex % project.techColors.length
+                                    ],
+                                }}
+                              ></div>
+                              {techstack}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                      <div className="flex flex-row items-center gap-4">
+                        <Link
+                          target="_blank"
+                          to={project.projectUrl}
+                          className="cursor-none"
+                        >
+                          <VisitLiveSiteBtn />
+                        </Link>
+                        <Link
+                          target="_blank"
+                          to={project.githubUrl}
+                          className="cursor-none"
+                        >
+                          <GithubIconBtn />
+                        </Link>
+                      </div>
+                    </div>
+
+                    <div className="w-full sm:w-1/2 rounded-xl aspect-video relative overflow-hidden">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                </StackingCardItem>
+              );
+            })}
+          </StackingCards>
+        </div>
+      </MaxWidthWrapper>
+    </div>
+  );
+};
+
+export default ExperienceSection;
