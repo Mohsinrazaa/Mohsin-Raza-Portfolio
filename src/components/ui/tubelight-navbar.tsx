@@ -11,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from "./dropdown-menu";
 import { Menu } from "lucide-react";
-import { MenuBtn } from "./menu-btn";
 
 interface NavItem {
   name: string;
