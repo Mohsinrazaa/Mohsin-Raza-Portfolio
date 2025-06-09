@@ -46,14 +46,14 @@ export const ProjectCardsData = [
     year: "2023",
     technologies: ["React Native", "JavaScript", "FireBase"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App/tree/main/EventHubAppScreenshots",
+    projectUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App/tree/main/EventHubAppScreenshots",
     githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
   },
   {
     id: 2,
     title: "Maxfit App",
-    description:
-      "MaxFit App, developed in React Native & Firebase.",
+    description: "MaxFit App, developed in React Native & Firebase.",
     image: MaxFitProject,
     type: "Personal",
     year: "2024",
@@ -78,14 +78,20 @@ export const ProjectCardsData = [
   {
     id: 4,
     title: "Firebase Push Notifications",
-    description:
-      "React Native - Push Notification - Firebase",
-    image: "https://private-user-images.githubusercontent.com/110921787/442495926-97016865-ed43-46cc-b90f-d0fc45a84b6a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDkzODA2NTYsIm5iZiI6MTc0OTM4MDM1NiwicGF0aCI6Ii8xMTA5MjE3ODcvNDQyNDk1OTI2LTk3MDE2ODY1LWVkNDMtNDZjYy1iOTBmLWQwZmM0NWE4NGI2YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwOFQxMDU5MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZDIzMTJiYTIzODA2MzM5YzE3YTA3MDg5NWYyYjI3ZTg1MDNiNmY2ZDU4NWFhNjFkMzE5NTFhZGM3Y2ZjY2QyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.juol9RIxS7EWRvE1zjA1uhan_ANgIvWaWyz8CoJeTZE",
+    description: "React Native - Push Notification - Firebase",
+    image: TagExtractorProject,
     type: "Personal",
     year: "2025",
-    technologies: ["React Native", "TypeScript", "FireBase", "Push Notification"],
+    technologies: [
+      "React Native",
+      "TypeScript",
+      "FireBase",
+      "Push Notification",
+    ],
     techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl: "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification?tab=readme-ov-file#demo",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification",
+    projectUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification?tab=readme-ov-file#demo",
+    githubUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification",
   },
 ];

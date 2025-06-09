@@ -21,10 +21,10 @@ const ExperienceSection = () => {
     <div className="z-[2]">
       <MaxWidthWrapper>
         <div className="relative z-[2] pt-32 items-center justify-center flex flex-col bg-rd-200 pb-52">
-          <div className="relative font-myMainFont w-full text-2xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
+          <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
             {ProjectsSectionHeading}
           </div>
-          <p className="text-myPalette9 text-lg font-medium text-center font-myMainFont mt-3">
+          <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
             {ProjectsSectionSubHeading}
           </p>
           <Link target="_blank" to={GitHubProfile} className="cursor-none">
@@ -41,26 +41,26 @@ const ExperienceSection = () => {
                 <StackingCardItem
                   key={index}
                   index={index}
-                  className="h-[570px]"
+                  className="h-[670px] lg:h-[570px]"
                 >
                   <div
                     className={cn(
-                      "h-[80%] sm:h-[70%] bg-white flex-col sm:flex-row gap-8 aspect-video px-8 py-8 flex w-11/12 rounded-3xl mx-auto relative border border-myPalette2 backdrop-blur-sm shadow-lg"
+                      "h-[80%] sm:h-[70%] bg-white flex-col lg:flex-row gap-6 lg:gap-8 aspect-video p-6 md:p-8 flex w-11/12 rounded-3xl mx-auto relative border border-myPalette2 backdrop-blur-sm shadow-lg"
                     )}
                   >
                     <div className="flex-1 flex flex-col justify-between font-myMainFont">
                       <div>
-                        <p className="font-bold text-md mb-2 flex flex-row items-center gap-2">
+                        <p className="font-bold text-sm md:text-md mb-2 flex flex-row items-center gap-2">
                           {project.type}
                           <p className="h-5 w-0.5 bg-myPalette6" />
                           {project.year}
                         </p>
-                        <h3 className="font-bold text-3xl">{project.title}</h3>
-                        <div className="w-full h-[1px] bg-myPalette6 my-5" />
-                        <p className="font-normal text-md">
+                        <h3 className="font-bold text-2xl md:text-3xl">{project.title}</h3>
+                        <div className="w-full h-[1px] bg-myPalette6 my-3 lg:my-5" />
+                        <p className="font-normal text-base md:text-md">
                           {project.description}
                         </p>
-                        <div className="flex flex-wrap items-center mt-5">
+                        <div className="flex flex-wrap items-center mt-3 lg:mt-5">
                           {project.technologies.map((techstack, techIndex) => (
                             <div
                               key={techIndex}
@@ -80,7 +80,7 @@ const ExperienceSection = () => {
                           ))}
                         </div>
                       </div>
-                      <div className="flex flex-row items-center gap-4">
+                      <div className="flex flex-row items-center gap-2 lg:gap-4 mt-4 md:mt-0">
                         <Link
                           target="_blank"
                           to={project.projectUrl}

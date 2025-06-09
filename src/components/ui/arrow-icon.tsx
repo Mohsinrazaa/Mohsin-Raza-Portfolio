@@ -72,7 +72,7 @@ const ArrowUpIcon = forwardRef<ArrowUpIconHandle, ArrowUpIconProps>(
 
     return (
       <div
-        className={cn(className, "flex flex-row gap-0.5 items-center text-base font-myMainFont text-myPalette1 font-semibold px-4.5 py-2.5 bg-myPalette9 rounded-full")}
+        className={cn(className, "flex flex-row gap-0.5 items-center text-base font-myMainFont text-myPalette1 font-semibold px-3 py-2 md:px-4.5 md:py-2.5 bg-myPalette9 rounded-full")}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         {...props}
