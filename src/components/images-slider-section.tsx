@@ -13,10 +13,10 @@ const ImagesSliderSection = () => {
           />
         ))}
       </Marquee>
-      <Marquee pauseOnHover autoFill direction="right" className="mt-8 hidden lg:block">
+      <Marquee pauseOnHover autoFill direction="right" className="lg:mt-8">
         {SliderImagesData.map((item) => (
           <img
-            className="h-100 mr-8"
+            className="h-100 mr-8 hidden lg:block"
             src={item.image}
             alt="Slider_Image"
           />
