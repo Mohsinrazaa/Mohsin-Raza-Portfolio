@@ -64,9 +64,9 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
             const isActive = activeTab === item.name;
 
             return (
-              <Link
+              <a
                 key={item.name}
-                to={item.url}
+                href={item.url}
                 onClick={() => setActiveTab(item.name)}
                 className={cn(
                   "relative cursor-none text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
@@ -97,7 +97,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                     </div>
                   </motion.div>
                 )}
-              </Link>
+              </a>
             );
           })}
           <button className="ml-14 cursor-none">

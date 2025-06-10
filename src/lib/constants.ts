@@ -3,12 +3,14 @@ import Photo from "../assets/img/myProfilePhoto.jpg";
 import EventHubProject from "../assets/img/projects/eventhubProject.png";
 import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
+import TestImage from "../assets/img/slider/test.png";
+import Test1Image from "../assets/img/slider/test1.png";
 
 export const NavLinks = [
-  { id: 1, name: "Home", url: "/", icon: House },
-  { id: 2, name: "Experience", url: "/", icon: BriefcaseBusiness },
-  { id: 3, name: "Projects", url: "/", icon: FolderGit2 },
-  { id: 3, name: "Reviews", url: "/", icon: Star },
+  { id: 1, name: "Home", url: "/#Hero", icon: House },
+  { id: 2, name: "Experience", url: "/#Hero", icon: BriefcaseBusiness },
+  { id: 3, name: "Work", url: "/#Work", icon: FolderGit2 },
+  { id: 3, name: "Reviews", url: "/#Hero", icon: Star },
 ];
 
 export const firstName = "Haider";
@@ -28,6 +30,40 @@ export const HeroSectionSubHeading =
   "Building fast, elegant interfaces with React, React Native, and Tailwind CSS.";
 export const HeroLetsConnectButton = "Let's Connect";
 export const HeroLetsSeeMyWorkButton = "See My Work";
+
+// Image Slider Section
+export const SliderImagesData = [
+  {
+    id: 1,
+    type: "phone",
+    image: TestImage,
+  },
+  {
+    id: 2,
+    type: "web",
+    image: Test1Image,
+  },
+  {
+    id: 3,
+    type: "phone",
+    image: TestImage,
+  },
+  {
+    id: 4,
+    type: "web",
+    image: Test1Image,
+  },
+  {
+    id: 5,
+    type: "phone",
+    image: TestImage,
+  },
+  {
+    id: 6,
+    type: "web",
+    image: Test1Image,
+  },
+];
 
 // Project Section
 export const ProjectsSectionHeading = "My Recent Work";

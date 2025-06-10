@@ -18,9 +18,9 @@ const ExperienceSection = () => {
   const [container, setContainer] = useState<HTMLElement | null>(null);
   // ref={(node) => setContainer(node)}
   return (
-    <div className="z-[2]">
+    <div id="Work" className="z-[2]">
       <MaxWidthWrapper>
-        <div className="relative z-[2] pt-32 items-center justify-center flex flex-col bg-rd-200 pb-52">
+        <div className="relative z-[3] pt-32 items-center justify-center flex flex-col bg-rd-200 pb-32">
           <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
             {ProjectsSectionHeading}
           </div>
@@ -31,7 +31,7 @@ const ExperienceSection = () => {
             <GithubProjectsBtn />
           </Link>
         </div>
-        <div className="relative z-[2] -mt-56 mb-6">
+        <div className="relative z-[2] -mt-52 mb-6">
           <StackingCards
             totalCards={ProjectCardsData.length}
             scrollOptons={{ container: { current: container } }}
