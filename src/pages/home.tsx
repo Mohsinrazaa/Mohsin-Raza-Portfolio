@@ -5,6 +5,7 @@ import ImagesSliderSection from "@/components/images-slider-section";
 import ProjectsSection from "@/components/projects-section";
 import TestimonialsSection from "@/components/testimonials-section";
 import ExperienceSection from "@/components/experience-section";
+import AboutSection from "@/components/about-section";
 
 const Home = () => {
   // const [time, setTime] = useState(moment().format("LTS"));
@@ -24,6 +25,7 @@ const Home = () => {
       <ImagesSliderSection />
       <ExperienceSection />
       <ProjectsSection />
+      <AboutSection />
       <TestimonialsSection />
       <p>Scroll</p>
       <p>Scroll</p>

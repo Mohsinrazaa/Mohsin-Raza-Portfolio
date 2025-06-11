@@ -252,3 +252,8 @@ export const ExperienceData = [
     type: "previous",
   },
 ];
+
+// About Section
+export const AboutSectionHeading = "A Glimpse into My World";
+export const AboutSectionSubHeading =
+  "Here, you'll find a snapshot of my coding activity, the tools I master, my key skills, and ways to connect with me.";

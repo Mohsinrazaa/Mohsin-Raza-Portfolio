@@ -49,7 +49,10 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
         )}
       >
         <div className="flex items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
-          <Link to={"/"} className="flex items-center gap-2 mr-14 cursor-none">
+          <a
+            href={"/#Hero"}
+            className="flex items-center gap-2 mr-14 cursor-none"
+          >
             <img
               className="w-12 aspect-square object-cover rounded-full"
               src={profilePhoto}
@@ -58,7 +61,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
             <p className="font-myNameFont text-xl text-myPalette9">
               {firstName}
             </p>
-          </Link>
+          </a>
           {items.map((item) => {
             const Icon = item.icon;
             const isActive = activeTab === item.name;
@@ -100,9 +103,13 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
               </a>
             );
           })}
-          <button className="ml-14 cursor-none">
+          <a
+            href="https://wa.me/+92344603782?text=Hello, How can I help you?"
+            target="_blank"
+            className="ml-14 cursor-none"
+          >
             <ArrowUpIcon />
-          </button>
+          </a>
         </div>
       </div>
       {/* Mobile */}
@@ -113,7 +120,10 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
         )}
       >
         <div className="w-full flex justify-between items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
-          <Link to={"/"} className="flex items-center gap-2 mr-14 cursor-none">
+          <a
+            href={"/#Hero"}
+            className="flex items-center gap-2 mr-14 cursor-none"
+          >
             <img
               className="w-10 md:w-12 aspect-square object-cover rounded-full"
               src={profilePhoto}
@@ -122,7 +132,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
             <p className="font-myNameFont text-lg md:text-xl text-myPalette9">
               {firstName}
             </p>
-          </Link>
+          </a>
           <div className="flex flex-row items-center">
             <DropdownMenu>
               <DropdownMenuTrigger>
@@ -141,9 +151,9 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                     const isActive = activeTab === item.name;
 
                     return (
-                      <Link
+                      <a
                         key={item.name}
-                        to={item.url}
+                        href={item.url}
                         onClick={() => setActiveTab(item.name)}
                         className={cn(
                           "relative cursor-none text-sm md:text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
@@ -156,15 +166,19 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                         <span className="md: hidden">
                           <Icon size={18} strokeWidth={2.5} />
                         </span>
-                      </Link>
+                      </a>
                     );
                   })}
                 </div>
               </DropdownMenuContent>
             </DropdownMenu>
-            <button className="cursor-none">
+            <a
+              href="https://wa.me/+92344603782?text=Hello, How can I help you?"
+              target="_blank"
+              className="cursor-none"
+            >
               <ArrowUpIcon />
-            </button>
+            </a>
           </div>
         </div>
       </div>

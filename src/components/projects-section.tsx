@@ -15,7 +15,7 @@ import { Link } from "react-router";
 import { motion } from "motion/react";
 
 const ProjectsSection = () => {
-  // @ts-ignore
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [container, setContainer] = useState<HTMLElement | null>(null);
   // ref={(node) => setContainer(node)}
   return (
