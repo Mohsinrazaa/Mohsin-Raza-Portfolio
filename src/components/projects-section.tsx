@@ -12,6 +12,7 @@ import { GithubProjectsBtn } from "./ui/github-projects-btn";
 import { VisitLiveSiteBtn } from "./ui/visit-live-site-btn";
 import { GithubIconBtn } from "./ui/github-icon-btn";
 import { Link } from "react-router";
+import { motion } from "motion/react";
 
 const ProjectsSection = () => {
   // @ts-ignore
@@ -20,7 +21,17 @@ const ProjectsSection = () => {
   return (
     <div id="Work" className="z-[2]">
       <MaxWidthWrapper>
-        <div className="relative z-[3] pt-32 items-center justify-center flex flex-col bg-rd-200 pb-32">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.1,
+            ease: [0.16, 1, 0.3, 1],
+          }}
+          viewport={{ once: true }}
+          className="relative z-[3] pt-32 items-center justify-center flex flex-col bg-rd-200 pb-32"
+        >
           <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
             {ProjectsSectionHeading}
           </div>
@@ -30,7 +41,7 @@ const ProjectsSection = () => {
           <Link target="_blank" to={GitHubProfile} className="cursor-none">
             <GithubProjectsBtn />
           </Link>
-        </div>
+        </motion.div>
         <div className="relative z-[2] -mt-52 mb-6">
           <StackingCards
             totalCards={ProjectCardsData.length}
@@ -55,7 +66,9 @@ const ProjectsSection = () => {
                           <p className="h-5 w-0.5 bg-myPalette6" />
                           {project.year}
                         </p>
-                        <h3 className="font-bold text-2xl md:text-3xl">{project.title}</h3>
+                        <h3 className="font-bold text-2xl md:text-3xl">
+                          {project.title}
+                        </h3>
                         <div className="w-full h-[1px] bg-myPalette6 my-3 lg:my-5" />
                         <p className="font-normal text-base md:text-md">
                           {project.description}

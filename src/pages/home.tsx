@@ -4,6 +4,7 @@ import { SmoothCursor } from "@/components/ui/smooth-cursor";
 import ImagesSliderSection from "@/components/images-slider-section";
 import ProjectsSection from "@/components/projects-section";
 import TestimonialsSection from "@/components/testimonials-section";
+import ExperienceSection from "@/components/experience-section";
 
 const Home = () => {
   // const [time, setTime] = useState(moment().format("LTS"));
@@ -21,6 +22,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <ImagesSliderSection />
+      <ExperienceSection />
       <ProjectsSection />
       <TestimonialsSection />
       <p>Scroll</p>
