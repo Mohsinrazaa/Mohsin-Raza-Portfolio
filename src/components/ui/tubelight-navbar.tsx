@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Link } from "react-router";
 import { fullName, profilePhoto } from "@/lib/constants";
 import { ArrowUpIcon } from "./arrow-icon";
 import {

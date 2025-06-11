@@ -2,7 +2,7 @@ import GitHubCalendar from 'react-github-calendar';
 import MaxWidthWrapper from './max-width-wrapper';
 import { motion } from "motion/react";
 import { AboutSectionHeading, AboutSectionSubHeading } from '@/lib/constants';
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 const AboutSection = () => {
   return (
@@ -25,7 +25,7 @@ const AboutSection = () => {
           <div className='mt-10 flex flex-row gap-6'>
             <div className='h-60 w-[40%] bg-red-300 rounded-3xl'></div>
             <div className='h-60 w-[60%] bg-yellow-200 rounded-3xl'>
-              
+
             </div>
           </div>
           <div className='bg-white border border-myPalette2 shadow-lg p-6 items-center justify-center flex rounded-3xl mt-6'>
