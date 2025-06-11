@@ -24,7 +24,6 @@ const HeroSection = () => {
               <MyWorkBtn />
             </div>
           </div>
-          
         </div>
       </MaxWidthWrapper>
     </div>

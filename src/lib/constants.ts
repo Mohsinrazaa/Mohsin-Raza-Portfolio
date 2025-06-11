@@ -5,12 +5,14 @@ import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 import TestImage from "../assets/img/slider/test.png";
 import Test1Image from "../assets/img/slider/test1.png";
+import MaleAvator from "../assets/img/icons/male-avatar.png";
+import FemaleAvator from "../assets/img/icons/female-avatar.png";
 
 export const NavLinks = [
   { id: 1, name: "Home", url: "/#Hero", icon: House },
   { id: 2, name: "Experience", url: "/#Hero", icon: BriefcaseBusiness },
   { id: 3, name: "Work", url: "/#Work", icon: FolderGit2 },
-  { id: 3, name: "Reviews", url: "/#Hero", icon: Star },
+  { id: 3, name: "Testimonials", url: "/#Testimonials", icon: Star },
 ];
 
 export const firstName = "Haider";
@@ -129,5 +131,66 @@ export const ProjectCardsData = [
       "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification?tab=readme-ov-file#demo",
     githubUrl:
       "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification",
+  },
+];
+
+// Testimonials Section
+export const TestimonialsSectionHeading = "What Clients Say About Me";
+export const TestimonialsSectionSubHeading =
+  "Don't just take my word for it. See what my clients have to say about my work.";
+export const testimonialsData = [
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
+  },
+  {
+    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    image: MaleAvator,
+    name: "Muaaz Ahmad",
+    role: "Mobile App Developer",
   },
 ];
