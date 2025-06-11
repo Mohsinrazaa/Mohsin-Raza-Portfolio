@@ -141,7 +141,7 @@ export const TestimonialsSectionSubHeading =
 export const testimonialsData = [
   {
     text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: MaleAvator,
+    image: FemaleAvator,
     name: "Muaaz Ahmad",
     role: "Mobile App Developer",
   },
