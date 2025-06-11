@@ -13,7 +13,7 @@ import { VisitLiveSiteBtn } from "./ui/visit-live-site-btn";
 import { GithubIconBtn } from "./ui/github-icon-btn";
 import { Link } from "react-router";
 
-const ExperienceSection = () => {
+const ProjectsSection = () => {
   // @ts-ignore
   const [container, setContainer] = useState<HTMLElement | null>(null);
   // ref={(node) => setContainer(node)}
@@ -116,4 +116,4 @@ const ExperienceSection = () => {
   );
 };
 
-export default ExperienceSection;
+export default ProjectsSection;

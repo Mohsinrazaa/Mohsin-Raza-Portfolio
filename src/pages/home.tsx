@@ -1,8 +1,8 @@
 import Navbar from "@/components/navbar";
 import HeroSection from "@/components/hero-section";
 import { SmoothCursor } from "@/components/ui/smooth-cursor";
-import ExperienceSection from "@/components/experience-section";
 import ImagesSliderSection from "@/components/images-slider-section";
+import ProjectsSection from "@/components/projects-section";
 import TestimonialsSection from "@/components/testimonials-section";
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <ImagesSliderSection />
-      <ExperienceSection />
+      <ProjectsSection />
       <TestimonialsSection />
       <p>Scroll</p>
       <p>Scroll</p>
