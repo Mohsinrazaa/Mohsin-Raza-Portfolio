@@ -3,7 +3,7 @@ import { motion, useAnimation } from 'motion/react';
 import type { HTMLAttributes } from 'react';
 import { forwardRef, useCallback, useImperativeHandle, useRef } from 'react';
 import { cn } from '@/lib/utils';
-import { FooterSectionBtn, HeroLetsConnectButton } from '@/lib/constants';
+import { FooterSectionBtn } from '@/lib/constants';
 
 export interface ArrowUpIconHandle {
   startAnimation: () => void;
