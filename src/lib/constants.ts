@@ -7,6 +7,23 @@ import TestImage from "../assets/img/slider/test.png";
 import Test1Image from "../assets/img/slider/test1.png";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 import FemaleAvator from "../assets/img/icons/female-avatar.png";
+import ReactIcon from "../assets/img/icons/skills-tools/react.png";
+import AndroidStudioIcon from "../assets/img/icons/skills-tools/androidstudio.png";
+import BootstrapIcon from "../assets/img/icons/skills-tools/bootstrap.png";
+import ChromeIcon from "../assets/img/icons/skills-tools/chrome.png";
+import CSSIcon from "../assets/img/icons/skills-tools/css.png";
+import ExpoIcon from "../assets/img/icons/skills-tools/expo.png";
+import FirebaseIcon from "../assets/img/icons/skills-tools/firebase.png";
+import GithubIcon from "../assets/img/icons/skills-tools/github.png";
+import HTMLIcon from "../assets/img/icons/skills-tools/html.png";
+import JavaScriptIcon from "../assets/img/icons/skills-tools/javascript.png";
+import TailwindCSSIcon from "../assets/img/icons/skills-tools/tailwindcss.png";
+import TypeScriptIcon from "../assets/img/icons/skills-tools/typescript.png";
+import VSCodeIcon from "../assets/img/icons/skills-tools/vscode.png";
+import LinkedInIcon from "../assets/img/icons/social-icons/linkedin.png";
+import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
+import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
+import MediumIcon from "../assets/img/icons/social-icons/medium.png";
 
 export const NavLinks = [
   { id: 1, name: "Home", url: "/#Hero", icon: House },
@@ -257,3 +274,84 @@ export const ExperienceData = [
 export const AboutSectionHeading = "A Glimpse into My World";
 export const AboutSectionSubHeading =
   "Here, you'll find a snapshot of my coding activity, the tools I master, my key skills, and ways to connect with me.";
+export const AboutSectionSkillsHeading = "My Skills & Tools";
+export const SkillsData = [
+  {
+    id: 1,
+    name: "Android Studio",
+    icon: AndroidStudioIcon,
+  },
+  {
+    id: 2,
+    name: "BootStrap",
+    icon: BootstrapIcon,
+  },
+  {
+    id: 3,
+    name: "Chrome",
+    icon: ChromeIcon,
+  },
+  {
+    id: 4,
+    name: "CSS",
+    icon: CSSIcon,
+  },
+  {
+    id: 5,
+    name: "Expo",
+    icon: ExpoIcon,
+  },
+  {
+    id: 6,
+    name: "Firebase",
+    icon: FirebaseIcon,
+  },
+  {
+    id: 7,
+    name: "Github",
+    icon: GithubIcon,
+  },
+  {
+    id: 8,
+    name: "HTML",
+    icon: HTMLIcon,
+  },
+  {
+    id: 9,
+    name: "JavaScript",
+    icon: JavaScriptIcon,
+  },
+  {
+    id: 10,
+    name: "React",
+    icon: ReactIcon,
+  },
+  {
+    id: 11,
+    name: "React Native",
+    icon: ReactIcon,
+  },
+  {
+    id: 12,
+    name: "Tailwind CSS",
+    icon: TailwindCSSIcon,
+  },
+  {
+    id: 13,
+    name: "TypeScript",
+    icon: TypeScriptIcon,
+  },
+  {
+    id: 14,
+    name: "VS Code",
+    icon: VSCodeIcon,
+  },
+];
+
+export {
+  LinkedInIcon,
+  DiscordIcon,
+  InstagramIcon,
+  MediumIcon,
+  GithubIcon,
+};
