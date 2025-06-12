@@ -38,7 +38,7 @@ const ProjectsSection = () => {
           <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
             {ProjectsSectionSubHeading}
           </p>
-          <Link target="_blank" to={GitHubProfile} className="cursor-none">
+          <Link target="_blank" to={GitHubProfile}>
             <GithubProjectsBtn />
           </Link>
         </motion.div>
@@ -97,14 +97,12 @@ const ProjectsSection = () => {
                         <Link
                           target="_blank"
                           to={project.projectUrl}
-                          className="cursor-none"
                         >
                           <VisitLiveSiteBtn />
                         </Link>
                         <Link
                           target="_blank"
                           to={project.githubUrl}
-                          className="cursor-none"
                         >
                           <GithubIconBtn />
                         </Link>

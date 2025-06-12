@@ -14,7 +14,7 @@ const AboutSection = () => {
   return (
     <div>
       <MaxWidthWrapper>
-        <div className='pt-32 pb-10 mx-16'>
+        <div className='pt-32 pb-10 lg:mx-16'>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -28,8 +28,8 @@ const AboutSection = () => {
               {AboutSectionSubHeading}
             </p>
           </motion.div>
-          <div className='mt-10 flex flex-row gap-6'>
-            <div className='w-[40%] bg-white border border-myPalette2 shadow-lg rounded-3xl px-6 pt-6 pb-6 grid grid-cols-2 gap-4'>
+          <div className='mt-10 flex flex-col md:flex-row gap-6'>
+            <div className='md:w-[40%] bg-white border border-myPalette2 shadow-lg rounded-3xl px-6 pt-6 pb-6 grid grid-cols-2 gap-4'>
               <div className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex'>   
                 <img
                   className="h-14 aspect-square"
@@ -99,7 +99,7 @@ const AboutSection = () => {
                 </CursorProvider>
               </div>
             </div>
-            <div className='w-[60%] bg-white border border-myPalette2 shadow-lg rounded-3xl px-6 pt-6 pb-2'>
+            <div className='md:w-[60%] bg-white border border-myPalette2 shadow-lg rounded-3xl px-6 pt-6 pb-2'>
               <h3 className="font-semibold text-xl md:text-2xl">
                 {AboutSectionSkillsHeading}
               </h3>
@@ -131,7 +131,7 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
-          <div className='bg-white border border-myPalette2 shadow-lg p-6 items-center justify-center flex rounded-3xl mt-6'>
+          <div className='hidden lg:flex bg-white border border-myPalette2 shadow-lg p-6 items-center justify-center rounded-3xl mt-6'>
             <GitHubCalendar
               username="haider-mukhtar"
               showWeekdayLabels

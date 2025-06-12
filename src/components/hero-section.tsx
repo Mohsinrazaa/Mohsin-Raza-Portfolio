@@ -17,12 +17,12 @@ const HeroSection = () => {
             {HeroSectionSubHeading}
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4 justify-center">
-            <Link target="_blank" to={LinkedInProfile} className="cursor-none">
+            <Link target="_blank" to={LinkedInProfile}>
               <LetsConnectBtn />
             </Link>
-            <div>
+            <a href="/#Work">
               <MyWorkBtn />
-            </div>
+            </a>
           </div>
         </div>
       </MaxWidthWrapper>

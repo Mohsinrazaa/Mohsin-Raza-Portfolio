@@ -50,7 +50,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
         <div className="flex items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
           <a
             href={"/#Hero"}
-            className="flex items-center gap-2 mr-14 cursor-none"
+            className="flex items-center gap-2 mr-14"
           >
             <img
               className="w-12 aspect-square object-cover rounded-full"
@@ -71,7 +71,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                 href={item.url}
                 onClick={() => setActiveTab(item.name)}
                 className={cn(
-                  "relative cursor-none text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
+                  "relative text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
                   "text-myPalette9/80 hover:text-myPalette8 hover:bg-myPalette2",
                   isActive &&
                     "bg-myPalette9 hover:bg-myPalette9 text-myPalette1 hover:text-myPalette1"
@@ -105,7 +105,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
           <a
             href="https://wa.me/+92344603782?text=Hello, How can I help you?"
             target="_blank"
-            className="ml-14 cursor-none"
+            className="ml-14"
           >
             <ArrowUpIcon />
           </a>
@@ -121,7 +121,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
         <div className="w-full flex justify-between items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
           <a
             href={"/#Hero"}
-            className="flex items-center gap-2 mr-14 cursor-none"
+            className="flex items-center gap-2 mr-14"
           >
             <img
               className="w-10 md:w-12 aspect-square object-cover rounded-full"
@@ -155,7 +155,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
                         href={item.url}
                         onClick={() => setActiveTab(item.name)}
                         className={cn(
-                          "relative cursor-none text-sm md:text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
+                          "relative text-sm md:text-base font-myMainFont font-semibold px-4.5 py-2.5 rounded-full transition-colors",
                           "text-myPalette9/80 hover:text-myPalette8 hover:bg-myPalette2",
                           isActive &&
                             "bg-myPalette9 hover:bg-myPalette9 text-myPalette1 hover:text-myPalette1"
@@ -174,7 +174,6 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
             <a
               href="https://wa.me/+92344603782?text=Hello, How can I help you?"
               target="_blank"
-              className="cursor-none"
             >
               <ArrowUpIcon />
             </a>
