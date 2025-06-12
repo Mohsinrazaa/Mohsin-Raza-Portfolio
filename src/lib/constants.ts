@@ -40,6 +40,8 @@ export const profilePhoto = Photo;
 // Social Links
 export const GitHubProfile = "https://github.com/Haider-Mukhtar";
 export const LinkedInProfile = "https://www.linkedin.com/in/haider-mukhtar/";
+export const MediumProfile = "https://medium.com/@haidermukhtar";
+export const InstagramProfile = "https://www.instagram.com/haider_mukhtar_ch/";
 
 // Hero Section
 export const HeroSectionHeading =

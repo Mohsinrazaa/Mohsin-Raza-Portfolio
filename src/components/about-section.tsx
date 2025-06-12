@@ -1,7 +1,7 @@
 import GitHubCalendar from 'react-github-calendar';
 import MaxWidthWrapper from './max-width-wrapper';
 import { motion } from "motion/react";
-import { AboutSectionHeading, AboutSectionSkillsHeading, AboutSectionSubHeading, GithubIcon, InstagramIcon, LinkedInIcon, MediumIcon, SkillsData } from '@/lib/constants';
+import { AboutSectionHeading, AboutSectionSkillsHeading, AboutSectionSubHeading, GithubIcon, GitHubProfile, InstagramIcon, InstagramProfile, LinkedInIcon, LinkedInProfile, MediumIcon, MediumProfile, SkillsData } from '@/lib/constants';
 import Marquee from "react-fast-marquee";
 import {
   MouseTrackerProvider as CursorProvider,
@@ -30,7 +30,7 @@ const AboutSection = () => {
           </motion.div>
           <div className='mt-10 flex flex-col md:flex-row gap-6'>
             <div className='md:w-[40%] bg-white border border-myPalette2 shadow-lg rounded-3xl px-6 pt-6 pb-6 grid grid-cols-2 gap-4'>
-              <div className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex'>   
+              <a href={LinkedInProfile} target='_blank' className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex cursor-none'>   
                 <img
                   className="h-14 aspect-square"
                   src={LinkedInIcon}
@@ -46,8 +46,8 @@ const AboutSection = () => {
                     </div>
                   </CursorFollow>
                 </CursorProvider>
-              </div>
-              <div className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex'>
+              </a>
+              <a href={GitHubProfile} target='_blank' className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex cursor-none'>
                 <img
                   className="h-14 aspect-square"
                   src={GithubIcon}
@@ -63,8 +63,8 @@ const AboutSection = () => {
                     </div>
                   </CursorFollow>
                 </CursorProvider>
-              </div>
-              <div className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex'>
+              </a>
+              <a href={MediumProfile} target='_blank' className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex cursor-none'>
                 <img
                   className="h-14 aspect-square"
                   src={MediumIcon}
@@ -80,8 +80,8 @@ const AboutSection = () => {
                     </div>
                   </CursorFollow>
                 </CursorProvider>
-              </div>
-              <div className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex'>
+              </a>
+              <a href={InstagramProfile} target='_blank' className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex cursor-none'>
                 <img
                   className="h-14 aspect-square"
                   src={InstagramIcon}
@@ -97,7 +97,7 @@ const AboutSection = () => {
                     </div>
                   </CursorFollow>
                 </CursorProvider>
-              </div>
+              </a>
             </div>
             <div className='md:w-[60%] bg-white border border-myPalette2 shadow-lg rounded-3xl px-6 pt-6 pb-2'>
               <h3 className="font-semibold text-xl md:text-2xl">
