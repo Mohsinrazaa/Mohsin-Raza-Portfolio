@@ -347,7 +347,6 @@ export const SkillsData = [
     icon: VSCodeIcon,
   },
 ];
-
 export {
   LinkedInIcon,
   DiscordIcon,
@@ -355,3 +354,8 @@ export {
   MediumIcon,
   GithubIcon,
 };
+
+// Footer Section
+export const FooterSectionHeading = "Anything in Mind?";
+export const FooterSectionSubHeading = "Let's Talk";
+export const FooterSectionBtn = "Let's Talk"

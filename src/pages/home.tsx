@@ -6,6 +6,7 @@ import ProjectsSection from "@/components/projects-section";
 import TestimonialsSection from "@/components/testimonials-section";
 import ExperienceSection from "@/components/experience-section";
 import AboutSection from "@/components/about-section";
+import Footer from "@/components/footer";
 
 const Home = () => {
   // const [time, setTime] = useState(moment().format("LTS"));
@@ -27,61 +28,7 @@ const Home = () => {
       <ProjectsSection />
       <AboutSection />
       <TestimonialsSection />
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
-      <p>Scroll</p>
+      <Footer />
       {/* <div className="absolute z-[4] bottom-2 right-2 flex gap-2 items-end justify-end">
         <ModeToggleBtn />
         <div className="border-2 border-myPalette1 rounded-full px-2 py-0.5">
