@@ -3,8 +3,6 @@ import Photo from "../assets/img/myProfilePhoto.jpg";
 import EventHubProject from "../assets/img/projects/eventhubProject.png";
 import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
-import TestImage from "../assets/img/slider/test.png";
-import Test1Image from "../assets/img/slider/test1.png";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 import FemaleAvator from "../assets/img/icons/female-avatar.png";
 import ReactIcon from "../assets/img/icons/skills-tools/react.png";
@@ -24,6 +22,26 @@ import LinkedInIcon from "../assets/img/icons/social-icons/linkedin.png";
 import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
 import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
 import MediumIcon from "../assets/img/icons/social-icons/medium.png";
+
+import web1 from "../assets/img/slider/web1.png";
+import web2 from "../assets/img/slider/web2.png";
+import web3 from "../assets/img/slider/web3.png";
+import web4 from "../assets/img/slider/web4.png";
+import web5 from "../assets/img/slider/web1.png";
+import web6 from "../assets/img/slider/web2.png";
+import web7 from "../assets/img/slider/web3.png";
+import web8 from "../assets/img/slider/web4.png";
+import web9 from "../assets/img/slider/web4.png";
+
+import mobile1 from "../assets/img/slider/mobile3.png";
+import mobile2 from "../assets/img/slider/mobile1.png";
+import mobile3 from "../assets/img/slider/mobile2.png";
+import mobile4 from "../assets/img/slider/mobile4.png";
+import mobile5 from "../assets/img/slider/mobile5.png";
+import mobile6 from "../assets/img/slider/mobile6.png";
+import mobile7 from "../assets/img/slider/mobile7.png";
+import mobile8 from "../assets/img/slider/mobile8.png";
+import mobile9 from "../assets/img/slider/mobile9.png";
 
 export const NavLinks = [
   { id: 1, name: "Home", url: "/#Hero", icon: House },
@@ -57,32 +75,92 @@ export const SliderImagesData = [
   {
     id: 1,
     type: "phone",
-    image: TestImage,
+    image: mobile1,
   },
   {
     id: 2,
     type: "web",
-    image: Test1Image,
+    image: web1,
   },
   {
     id: 3,
     type: "phone",
-    image: TestImage,
+    image: mobile2,
   },
   {
     id: 4,
     type: "web",
-    image: Test1Image,
+    image: web2,
   },
   {
     id: 5,
     type: "phone",
-    image: TestImage,
+    image: mobile3,
   },
   {
     id: 6,
     type: "web",
-    image: Test1Image,
+    image: web3,
+  },
+  {
+    id: 7,
+    type: "phone",
+    image: mobile4,
+  },
+  {
+    id: 8,
+    type: "web",
+    image: web4,
+  },
+  {
+    id: 9,
+    type: "phone",
+    image: mobile5,
+  },
+  {
+    id: 10,
+    type: "web",
+    image: web5,
+  },
+  {
+    id: 11,
+    type: "phone",
+    image: mobile6,
+  },
+  {
+    id: 12,
+    type: "web",
+    image: web6,
+  },
+  {
+    id: 13,
+    type: "phone",
+    image: mobile7,
+  },
+  {
+    id: 14,
+    type: "web",
+    image: web7,
+  },
+  {
+    id: 15,
+    type: "phone",
+    image: mobile8,
+  },
+  {
+    id: 16,
+    type: "web",
+    image: web8,
+  },
+  {
+    id: 17,
+    type: "phone",
+    image: mobile9,
+  },
+  {
+    id: 18,
+    type: "web",
+    image: web9,
   },
 ];
 
