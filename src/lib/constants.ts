@@ -1,8 +1,5 @@
 import { BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
 import Photo from "../assets/img/myProfilePhoto.jpg";
-import EventHubProject from "../assets/img/projects/eventhubProject.png";
-import MaxFitProject from "../assets/img/projects/maxfitProject.png";
-import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 import FemaleAvator from "../assets/img/icons/female-avatar.png";
 import ReactIcon from "../assets/img/icons/skills-tools/react.png";
@@ -22,6 +19,11 @@ import LinkedInIcon from "../assets/img/icons/social-icons/linkedin.png";
 import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
 import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
 import MediumIcon from "../assets/img/icons/social-icons/medium.png";
+
+import EventHubProject from "../assets/img/projects/eventhubProject.png";
+import MaxFitProject from "../assets/img/projects/maxfitProject.png";
+import TagExtractorProject from "../assets/img/projects/tagextractor.png";
+import PushNotificationProject from "../assets/img/projects/pushnotification.png";
 
 import web1 from "../assets/img/slider/web1.png";
 import web2 from "../assets/img/slider/web2.png";
@@ -214,7 +216,7 @@ export const ProjectCardsData = [
     id: 4,
     title: "Firebase Push Notifications",
     description: "React Native - Push Notification - Firebase",
-    image: TagExtractorProject,
+    image: PushNotificationProject,
     type: "Personal",
     year: "2025",
     technologies: [
