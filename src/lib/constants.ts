@@ -25,25 +25,25 @@ import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 import PushNotificationProject from "../assets/img/projects/pushnotification.png";
 
-import web1 from "../assets/img/slider/web1.png";
-import web2 from "../assets/img/slider/web2.png";
-import web3 from "../assets/img/slider/web3.png";
-import web4 from "../assets/img/slider/web4.png";
-import web5 from "../assets/img/slider/web1.png";
-import web6 from "../assets/img/slider/web2.png";
-import web7 from "../assets/img/slider/web3.png";
-import web8 from "../assets/img/slider/web4.png";
-import web9 from "../assets/img/slider/web4.png";
+import web1 from "../assets/img/sliderwebp/web1.webp";
+import web2 from "../assets/img/sliderwebp/web2.webp";
+import web3 from "../assets/img/sliderwebp/web3.webp";
+import web4 from "../assets/img/sliderwebp/web4.webp";
+import web5 from "../assets/img/sliderwebp/web1.webp";
+import web6 from "../assets/img/sliderwebp/web2.webp";
+import web7 from "../assets/img/sliderwebp/web3.webp";
+import web8 from "../assets/img/sliderwebp/web4.webp";
+import web9 from "../assets/img/sliderwebp/web1.webp";
 
-import mobile1 from "../assets/img/slider/mobile3.png";
-import mobile2 from "../assets/img/slider/mobile1.png";
-import mobile3 from "../assets/img/slider/mobile2.png";
-import mobile4 from "../assets/img/slider/mobile4.png";
-import mobile5 from "../assets/img/slider/mobile5.png";
-import mobile6 from "../assets/img/slider/mobile6.png";
-import mobile7 from "../assets/img/slider/mobile7.png";
-import mobile8 from "../assets/img/slider/mobile8.png";
-import mobile9 from "../assets/img/slider/mobile9.png";
+import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
+import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
+import mobile3 from "../assets/img/sliderwebp/mobile2.webp";
+import mobile4 from "../assets/img/sliderwebp/mobile4.webp";
+import mobile5 from "../assets/img/sliderwebp/mobile5.webp";
+import mobile6 from "../assets/img/sliderwebp/mobile6.webp";
+import mobile7 from "../assets/img/sliderwebp/mobile7.webp";
+import mobile8 from "../assets/img/sliderwebp/mobile8.webp";
+import mobile9 from "../assets/img/sliderwebp/mobile9.webp";
 
 export const NavLinks = [
   { id: 1, name: "Home", url: "/#Hero", icon: House },
