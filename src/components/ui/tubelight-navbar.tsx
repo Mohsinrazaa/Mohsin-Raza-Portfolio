@@ -38,6 +38,44 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Remove the '#' from the id to match with our nav items
+            const sectionName = entry.target.id;
+            // Find the matching nav item and set it as active
+            const matchingItem = items.find(
+              (item) => item.url.substring(2) === sectionName
+            );
+            if (matchingItem) {
+              setActiveTab(matchingItem.name);
+            }
+          }
+        });
+      },
+      {
+        threshold: 0.2, // Trigger when 50% of the section is visible
+        rootMargin: "-50px 0px -50px 0px" // Adjust the margins as needed
+      }
+    );
+
+    // Observe all sections
+    items.forEach((item) => {
+      const section = document.getElementById(item.url.substring(2));
+      if (section) {
+        observer.observe(section);
+      }
+    });
+
+    return () => {
+      // Cleanup observer
+      observer.disconnect();
+    };
+  }, [items]);
+
   return (
     <div>
       {/* Desktop */}

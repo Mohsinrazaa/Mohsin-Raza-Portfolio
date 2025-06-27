@@ -49,7 +49,7 @@ export const NavLinks = [
   { id: 1, name: "Home", url: "/#Hero", icon: House },
   { id: 2, name: "Experience", url: "/#Experience", icon: BriefcaseBusiness },
   { id: 3, name: "Work", url: "/#Work", icon: FolderGit2 },
-  { id: 3, name: "Testimonials", url: "/#Testimonials", icon: Star },
+  { id: 3, name: "Reviews", url: "/#Testimonials", icon: Star },
 ];
 
 export const firstName = "Haider";
