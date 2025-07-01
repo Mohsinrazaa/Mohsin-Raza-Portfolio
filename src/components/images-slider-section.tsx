@@ -15,24 +15,28 @@ const ImagesSliderSection = () => {
               src={item.image}
               alt="Slider_Image"
             />
-            <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
-              {
-                item.projectUrl ?
+            {
+              item.projectUrl || item.githubUrl ?
+              <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
+                {
+                  item.projectUrl ?
+                    <Link
+                      target="_blank"
+                      to={item.projectUrl}
+                    >
+                      <LinkIconBtn />
+                    </Link>
+                    : null
+                }
                 <Link
                   target="_blank"
-                  to={item.projectUrl}
+                  to={item.githubUrl}
                 >
-                  <LinkIconBtn />
+                  <GithubIconBtn1 />
                 </Link>
-                  : null
-              }
-              <Link
-                target="_blank"
-                to={item.githubUrl}
-              >
-                <GithubIconBtn1 />
-              </Link>
-            </div>
+              </div>
+              : null
+            }
           </div>
         ))}
       </Marquee>
@@ -44,24 +48,28 @@ const ImagesSliderSection = () => {
               src={item.image}
               alt="Slider_Image"
             />
-            <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
-              {
-                item.projectUrl ?
+            {
+              item.projectUrl || item.githubUrl ?
+              <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
+                {
+                  item.projectUrl ?
+                  <Link
+                    target="_blank"
+                    to={item.projectUrl}
+                  >
+                    <LinkIconBtn />
+                  </Link>
+                    : null
+                }
                 <Link
                   target="_blank"
-                  to={item.projectUrl}
+                  to={item.githubUrl}
                 >
-                  <LinkIconBtn />
+                  <GithubIconBtn1 />
                 </Link>
-                  : null
-              }
-              <Link
-                target="_blank"
-                to={item.githubUrl}
-              >
-                <GithubIconBtn1 />
-              </Link>
-            </div>
+              </div>
+              : null
+            }
           </div>
         ))}
       </Marquee>

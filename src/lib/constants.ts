@@ -79,7 +79,7 @@ export const SliderImagesData = [
     type: "phone",
     image: mobile1,
     projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lailah-Expo",
+    githubUrl: "",
   },
   {
     id: 2,
@@ -93,7 +93,7 @@ export const SliderImagesData = [
     type: "phone",
     image: mobile2,
     projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lailah-Expo",
+    githubUrl: "",
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ export const SliderImagesData = [
     type: "phone",
     image: mobile3,
     projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lailah-Expo",
+    githubUrl: "",
   },
   {
     id: 6,
