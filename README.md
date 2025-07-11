@@ -1,11 +1,11 @@
 
-# Haider Mukhtar Portfolio
+# Mohsin Raza Portfolio
 
 A portfolio using React, Vite, TypeScript, and TailwindCSS.
 
 ## Live Demo
 
-<a href="https://haidermukhtar.vercel.app/" target="_blank" title="Portfolio">💻 Live Demo</a>
+<a href="https://mohsin.raza.vercel.app/" target="_blank" title="Portfolio">💻 Live Demo</a>
 
 
 ## Run Locally
@@ -13,13 +13,13 @@ A portfolio using React, Vite, TypeScript, and TailwindCSS.
 Clone the project
 
 ```bash
-  git clone https://github.com/Haider-Mukhtar/Haider-Mukhtar-Portfolio-V2.git
+  git clone https://github.com/Mohsinrazaa/Mohsin-Raza-Portfolio.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Haider-Mukhtar-Portfolio-V2
+  cd Mohsin-Raza-Portfolio
 ```
 
 Install dependencies
@@ -42,6 +42,6 @@ Start the server
 
 ## Developer
 
-- [@Haider Mukhtar](https://github.com/Haider-Mukhtar)
+- [@Mohsin Raza](https://github.com/Haider-Mukhtar)
 
 
