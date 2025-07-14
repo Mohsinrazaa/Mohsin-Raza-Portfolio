@@ -1,7 +1,7 @@
 import GitHubCalendar from 'react-github-calendar';
 import MaxWidthWrapper from './max-width-wrapper';
 import { motion } from "motion/react";
-import { AboutSectionHeading, AboutSectionSkillsHeading, AboutSectionSubHeading, GithubIcon, GitHubProfile, InstagramIcon, InstagramProfile, LinkedInIcon, LinkedInProfile, MediumIcon, MediumProfile, SkillsData } from '@/lib/constants';
+import { AboutSectionHeading, AboutSectionSkillsHeading, AboutSectionSubHeading, GithubIcon, GitHubProfile, InstagramIcon, InstagramProfile, LinkedInIcon, LinkedInProfile, MediumIcon, MediumProfile, SkillsData, SkillsData2 } from '@/lib/constants';
 import Marquee from "react-fast-marquee";
 import {
   MouseTrackerProvider as CursorProvider,
@@ -42,7 +42,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-blue-500 text-white border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[105px]">
-                      haider-mukhtar
+                      mohsin-raza
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -59,7 +59,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-myPalette9 text-myPalette1 border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[105px]">
-                      Haider-Mukhtar
+                      Mohsin-Raza
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -76,7 +76,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-myPalette9 text-myPalette1 border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[110px]">
-                      @haidermukhtar
+                      @mohsin-raza
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -93,7 +93,7 @@ const AboutSection = () => {
                   </Cursor>
                   <CursorFollow align="bottom-right">
                     <div className="bg-red-500 text-white border border-white/10 text-xs px-2 py-1 rounded-md shadow-md w-[120px]">
-                      haider_mukhtar_ch
+                      mohsin_raza_40
                     </div>
                   </CursorFollow>
                 </CursorProvider>
@@ -117,7 +117,7 @@ const AboutSection = () => {
                   ))}
                 </Marquee>
                 <Marquee autoFill direction="right" gradient gradientWidth={40}>
-                  {SkillsData.map((item) => (
+                  {SkillsData2.map((item) => (
                     <div className='bg-white border border-myPalette2 shadow-lg rounded-xl mr-2 mb-6 p-2 flex flex-row items-center gap-2'>
                       <img
                         className="h-10 aspect-square"
@@ -133,7 +133,7 @@ const AboutSection = () => {
           </div>
           <div className='hidden lg:flex bg-white border border-myPalette2 shadow-lg p-6 items-center justify-center rounded-3xl mt-6'>
             <GitHubCalendar
-              username="haider-mukhtar"
+              username="mohsinrazaa"
               showWeekdayLabels
               errorMessage='GitHub Contribution Data not found'
               colorScheme='light'

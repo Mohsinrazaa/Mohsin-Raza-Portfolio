@@ -42,6 +42,6 @@ Start the server
 
 ## Developer
 
-- [@Mohsin Raza](https://github.com/Haider-Mukhtar)
+- [@Mohsin Raza](https://github.com/Mohsinrazaa)
 
 

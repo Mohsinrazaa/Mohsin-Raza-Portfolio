@@ -64,29 +64,33 @@ const ExperienceSection = () => {
                 <div className="sticky flex flex-col md:flex-row z-40 items-cente top-40 self-start max-w-xs lg:max-w-sm md:w-full">
                   <div className="h-12 absolute left-3 md:left-3 w-12 rounded-full bg-white border border-myPalette2 flex items-center justify-center shadow-lg">
                     <div
-                      className={`h-9 w-9 rounded-full flex items-center justify-center ${
-                        experience.type === "current"
-                          ? "bg-green-600 animate-pulse"
-                          : "bg-blue-500"
-                      }`}
+                      className={`h-9 w-9 rounded-full flex items-center justify-center ${experience.type === "current"
+                        ? "bg-green-600 animate-pulse"
+                        : "bg-blue-500"
+                        }`}
                     >
                       <Briefcase className="h-5 w-5 text-white" />
                     </div>
                   </div>
                   <div className="hidden md:block md:pl-18">
-                    <h3 className="text-2xl md:text-3xl font-bold text-myPalette9 mb-1">
-                      {experience.company}
-                    </h3>
+                    <div className="flex items-center gap-2">
+                      <img src={experience.companyLogo} alt={experience.company} className="h-10 w-10" />
+                      <button className="hover:underline cursor-pointer">
+                        <a href={experience.companyUrl} target="_blank" rel="noopener noreferrer">
+                          <h3 className="text-2xl md:text-3xl font-bold text-myPalette9 mb-1">
+                            {experience.company}
+                          </h3>
+                        </a>
+                      </button>
+                    </div>
                     <Badge
-                      className={`${
-                        experience.type === "current"
-                          ? "bg-myPalette9"
-                          : "bg-myPalette3"
-                      } ${
-                        experience.type === "current"
+                      className={`${experience.type === "current"
+                        ? "bg-myPalette9"
+                        : "bg-myPalette3"
+                        } ${experience.type === "current"
                           ? "text-myPalette1"
                           : "text-myPalette9"
-                      } text-xs`}
+                        } text-xs`}
                     >
                       {experience.type === "current" ? "Current" : "Previous"}
                     </Badge>
@@ -97,19 +101,21 @@ const ExperienceSection = () => {
                   <Card className="bg-white border border-myPalette2 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
                     <CardContent className="p-6">
                       <div className="md:hidden mb-4">
-                        <h3 className="text-xl font-bold text-myPalette9 mb-2">
-                          {experience.company}
-                        </h3>
+                        <button className="hover:underline cursor-pointer">
+                          <a href="https://www.digimarkdevelopers.com/" target="_blank" rel="noopener noreferrer">
+                            <h3 className="text-xl font-bold text-myPalette9 mb-2">
+                              {experience.company}
+                            </h3>
+                          </a>
+                        </button>
                         <Badge
-                          className={`${
-                            experience.type === "current"
-                              ? "bg-myPalette9"
-                              : "bg-myPalette3"
-                          } ${
-                            experience.type === "current"
+                          className={`${experience.type === "current"
+                            ? "bg-myPalette9"
+                            : "bg-myPalette3"
+                            } ${experience.type === "current"
                               ? "text-myPalette1"
                               : "text-myPalette9"
-                          } text-xs`}
+                            } text-xs`}
                         >
                           {experience.type === "current"
                             ? "Current"

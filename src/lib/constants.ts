@@ -3,11 +3,11 @@ import Photo from "../assets/img/myProfilePhoto.jpg";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 import FemaleAvator from "../assets/img/icons/female-avatar.png";
 import ReactIcon from "../assets/img/icons/skills-tools/react.png";
-import AndroidStudioIcon from "../assets/img/icons/skills-tools/androidstudio.png";
+import PythonIcon from "../assets/img/icons/skills-tools/python.png";
+import DjangoIcon from "../assets/img/icons/skills-tools/django.png";
 import BootstrapIcon from "../assets/img/icons/skills-tools/bootstrap.png";
 import ChromeIcon from "../assets/img/icons/skills-tools/chrome.png";
 import CSSIcon from "../assets/img/icons/skills-tools/css.png";
-import ExpoIcon from "../assets/img/icons/skills-tools/expo.png";
 import FirebaseIcon from "../assets/img/icons/skills-tools/firebase.png";
 import GithubIcon from "../assets/img/icons/skills-tools/github.png";
 import HTMLIcon from "../assets/img/icons/skills-tools/html.png";
@@ -19,12 +19,29 @@ import LinkedInIcon from "../assets/img/icons/social-icons/linkedin.png";
 import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
 import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
 import MediumIcon from "../assets/img/icons/social-icons/medium.png";
-
+import DigiMarkDevelopersLogo from "../assets/img/companies/digimark.png";
+import EnlaticsLogo from "../assets/img/companies/enlatics.jpg";
+import MosesTechnologiesLogo from "../assets/img/companies/moses.jpg";
+import PytorchIcon from "../assets/img/icons/skills-tools/pytorch.png";
+import CluadeAI from "../assets/img/icons/skills-tools/claude.png";
+import RAGIcon from "../assets/img/icons/skills-tools/rag.png";
+import ChatGPTIcon from "../assets/img/icons/skills-tools/chatgpt.png";
+import AnthropicIcon from "../assets/img/icons/skills-tools/anthropic.png";
+import OllamaIcon from "../assets/img/icons/skills-tools/ollama.jpg";
+import FastAPI from "../assets/img/icons/skills-tools/fastapi.png";
+import DeepSeekIcon from "../assets/img/icons/skills-tools/deepseek.png";
+import DockerIcon from "../assets/img/icons/skills-tools/docker.png";
+import SeleniumIcon from "../assets/img/icons/skills-tools/selenium.png";
+import VercelIcon from "../assets/img/icons/skills-tools/vercel.png";
+import FlaskIcon from "../assets/img/icons/skills-tools/flask.png";
+import AWSIcon from "../assets/img/icons/skills-tools/aws.png";
+import AzureIcon from "../assets/img/icons/skills-tools/azure.png";
+import APIIcon from "../assets/img/icons/skills-tools/rest-api.png";
 import EventHubProject from "../assets/img/projects/eventhubProject.png";
 import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 import PushNotificationProject from "../assets/img/projects/pushnotification.png";
-
+import CI_CDIcon from "../assets/img/icons/skills-tools/devops.png";
 import web1 from "../assets/img/sliderwebp/web1.webp";
 import web2 from "../assets/img/sliderwebp/web2.webp";
 import web3 from "../assets/img/sliderwebp/web3.webp";
@@ -52,23 +69,23 @@ export const NavLinks = [
   { id: 3, name: "Reviews", url: "/#Testimonials", icon: Star },
 ];
 
-export const firstName = "Haider";
-export const lastName = "Mukhtar";
-export const fullName = "Haider Mukhtar";
+export const firstName = "Mohsin";
+export const lastName = "Raza";
+export const fullName = "Mohsin Raza";
 export const profilePhoto = Photo;
 
 // Social Links
-export const GitHubProfile = "https://github.com/Haider-Mukhtar";
-export const LinkedInProfile = "https://www.linkedin.com/in/haider-mukhtar/";
-export const MediumProfile = "https://medium.com/@haidermukhtar";
-export const InstagramProfile = "https://www.instagram.com/haider_mukhtar_ch/";
+export const GitHubProfile = "https://github.com/Mohsinrazaa";
+export const LinkedInProfile = "https://www.linkedin.com/in/mohsin-raza-40/";
+export const MediumProfile = "https://medium.com/@razamh";
+export const InstagramProfile = "https://www.instagram.com/mohsin_raza_40/";
 
 // Hero Section
 export const HeroSectionHeading =
-  "Frontend Developer </br> for  Web & Mobile Apps";
+  "Full Stack Developer </br> for  Python & AI Engineer";
 // export const HeroSectionHeading = "Creative Frontend Developer <br/> for Scalable Web & Mobile Apps ";
 export const HeroSectionSubHeading =
-  "Building fast, elegant interfaces with React, React Native, and Tailwind CSS.";
+  "Building fast, elegant interfaces with Python, AI, and  Web Development.";
 export const HeroLetsConnectButton = "Let's Connect";
 export const HeroLetsSeeMyWorkButton = "See My Work";
 
@@ -337,52 +354,89 @@ export const ExperienceSectionSubHeading =
 export const ExperienceData = [
   {
     company: "DigiMark Developers",
-    position: "Junior Software Engineer",
-    duration: "Dec 2024 - Present",
+    companyUrl: "https://www.digimarkdevelopers.com/",
+    companyLogo: DigiMarkDevelopersLogo,
+    position: "Senior Software Engineer",
+    duration: "July 2024 - Present",
     location: "Johar Town, Lahore, Pakistan",
     description:
-      "Acquired proficiency in Tailwind CSS, JavaScript, TypeScript, React, React Native and Expo. Gained hands-on experience in developing visually appealing and user-friendly web and mobile interfaces. Crafted responsive web designs that enhance user experience.",
+      "Experienced in leading backend-focused teams, gathering and understanding client requirements, and overseeing end-to-end deployment. Proficient in Python, Django REST Framework, FastAPI, PostgreSQL, MySQL, MongoDB, Redis, React JS, and DevOps practices. Skilled in architecting scalable APIs, implementing CI/CD pipelines, and containerizing applications with Docker. Adept at integrating LLM, OpenAI, Anthropic, Ollama and RAG pipelines to build AI-powered systems. Ensures high-quality deliverables through effective team coordination and regular client engagement.",
     technologies: [
-      "Tailwind CSS",
-      "React",
-      "JavaScript",
-      "TypeScript",
-      "React Native",
-      "Expo",
+      "Python",
+      "AI",
+      "Web Development",
+      "Django REST Framework",
+      "React JS",
+      "FastAPI",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
       "GitHub",
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "Ollama",
+      "RAG",
+      "Docker",
+      "CI/CD Pipeline",
+      "DevOps",
+      "AWS S3",
+      "Microservices",
+      "MS Azure",
+
     ],
     type: "current",
   },
   {
-    company: "MikroStar Tech (SMC-Pvt.) Ltd.",
-    position: "Mobile Application Development - Internship",
-    duration: "Oct 2023 - Jan 2024",
-    location: "Green Acres Housing Society, Lahore, Pakistan",
+    company: "Enlatics (SMC-Pvt.) Ltd.",
+    companyUrl: "https://enlatics.com/",
+    companyLogo: EnlaticsLogo,
+    position: "Software Engineer",
+    duration: "Jun 2022 - July 2024",
+    location: "Opf Housing Scheme, Lahore, Pakistan",
     description:
-      "Developed interactive mobile applications using Android Studio, Java, JavaScript, and Firebase. Dedicated significant time to mastering React Native for enhanced mobile solutions. Completed a comprehensive project demonstrating advanced mobile app development skills.",
+      "Driven by a passion for product development and research, contributing to innovative solutions at Enlatics. Specializes in Python, Django, MongoDB, PostgreSQL, and JavaScript. Skilled in third-party API integration, database design and maintenance, and leveraging Git for version control. Tackles complex performance and architectural challenges to ensure seamless, high-quality product delivery.",
     technologies: [
-      "JavaScript",
-      "React Native",
-      "Android Studio",
-      "Firebase",
-      "GitHub",
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "FastAPI",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Web Scraping",
+      "Web Automation",
+      "Bypassing Captcha",
+      "BeautifulSoup",
+      "Selenium",
     ],
     type: "previous",
   },
   {
-    company: "Cosmosoft Business Solutions Pvt. Ltd.",
-    position: "Front-End Web Development - Internship",
-    duration: "July 2022 - Sep 2022",
-    location: "Johar Town, Lahore, Pakistan",
+    company: "Moses Technologies Pvt. Ltd.",
+    companyUrl: "https://mosestechnologies.ai/",
+    companyLogo: MosesTechnologiesLogo,
+    position: "Python Developer",
+    duration: "July 2021 - April 2022",
+    location: "Gulberg 2, Lahore, Pakistan",
     description:
-      "Acquired proficiency in HTML, CSS, Tailwind CSS, Bootstrap, and jQuery. Gained hands-on experience in developing visually appealing and user-friendly web interfaces. Crafted responsive web designs that enhance user experience.",
+      "Responsible for Python backend development using Django REST Framework and integrating machine learning/deep learning models. Enhanced infrastructure with AWS S3 and SQS, and contributed to projects on the Laravel MVC framework. Tech stack includes Python, Django, Laravel, ML, and DL, driving robust, scalable solutions.",
     technologies: [
-      "HTML",
-      "CSS",
-      "Tailwind CSS",
-      "Bootstrap",
-      "jQuery",
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "Django",
+      "Django REST Framework",
+      "AWS S ",
+      "Laravel MVC",
+      "Git",
+      "Selenium",
+      "BeautifulSoup",
+      "Bypassing Captcha",
+      "Web Scraping",
+      "Web Development",
       "JavaScript",
+      "Docker",
     ],
     type: "previous",
   },
@@ -396,9 +450,10 @@ export const AboutSectionSkillsHeading = "My Skills & Tools";
 export const SkillsData = [
   {
     id: 1,
-    name: "Android Studio",
-    icon: AndroidStudioIcon,
+    name: "Python",
+    icon: PythonIcon,
   },
+
   {
     id: 2,
     name: "BootStrap",
@@ -413,11 +468,6 @@ export const SkillsData = [
     id: 4,
     name: "CSS",
     icon: CSSIcon,
-  },
-  {
-    id: 5,
-    name: "Expo",
-    icon: ExpoIcon,
   },
   {
     id: 6,
@@ -445,11 +495,6 @@ export const SkillsData = [
     icon: ReactIcon,
   },
   {
-    id: 11,
-    name: "React Native",
-    icon: ReactIcon,
-  },
-  {
     id: 12,
     name: "Tailwind CSS",
     icon: TailwindCSSIcon,
@@ -464,6 +509,94 @@ export const SkillsData = [
     name: "VS Code",
     icon: VSCodeIcon,
   },
+  {
+    id: 15,
+    name: "Django",
+    icon: DjangoIcon,
+  },
+  {
+    id: 16,
+    name: "FastAPI",
+    icon: FastAPI,
+  },
+];
+export const SkillsData2 = [
+  {
+    id: 1,
+    name: "Pytorch",
+    icon: PytorchIcon,
+  },
+  {
+    id: 2,
+    name: "Cluade AI",
+    icon: CluadeAI,
+  },
+  {
+    id: 3,
+    name: "RAG",
+    icon: RAGIcon,
+  },
+  {
+    id: 4,
+    name: "OpenAI",
+    icon: ChatGPTIcon,
+  },
+  {
+    id: 5,
+    name: "Anthropic",
+    icon: AnthropicIcon,
+  },
+  {
+    id: 6,
+    name: "Ollama",
+    icon: OllamaIcon,
+  },
+  {
+    id: 7,
+    name: "DeepSeek",
+    icon: DeepSeekIcon,
+  },
+  {
+    id: 8,
+    name: "Docker",
+    icon: DockerIcon,
+  },
+  {
+    id: 9,
+    name: "CI/CD Pipeline",
+    icon: CI_CDIcon,
+  },
+  {
+    id: 10,
+    name: "Vercel",
+    icon: VercelIcon,
+  },
+  {
+    id: 11,
+    name: "AWS",
+    icon: AWSIcon,
+  },
+  {
+    id: 12,
+    name: "MS Azure",
+    icon: AzureIcon,
+  },
+  {
+    id: 13,
+    name: "Selenium",
+    icon: SeleniumIcon,
+  },
+  {
+    id: 14,
+    name: "Flask",
+    icon: FlaskIcon,
+  },
+  {
+    id: 15,
+    name: "Rest API",
+    icon: APIIcon,
+  },
+  
 ];
 export {
   LinkedInIcon,

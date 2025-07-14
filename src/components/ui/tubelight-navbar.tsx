@@ -141,7 +141,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
             );
           })}
           <a
-            href="https://wa.me/+92344603782?text=Hello, How can I help you?"
+            href="https://wa.me/+923034020491?text=Hello, How can I help you?"
             target="_blank"
             className="ml-14"
           >
