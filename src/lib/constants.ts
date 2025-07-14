@@ -48,8 +48,8 @@ import web3 from "../assets/img/sliderwebp/web3.webp";
 import web4 from "../assets/img/sliderwebp/web4.webp";
 import web5 from "../assets/img/sliderwebp/web5.webp";
 import web6 from "../assets/img/sliderwebp/web6.webp";
-import web7 from "../assets/img/sliderwebp/web3.webp";
-import web8 from "../assets/img/sliderwebp/web4.webp";
+import web7 from "../assets/img/sliderwebp/web7.webp";
+import web8 from "../assets/img/sliderwebp/web8.webp";
 import web9 from "../assets/img/sliderwebp/web1.webp";
 import PostgreSQLIcon from "../assets/img/icons/skills-tools/postgresql.png";
 import MySQLIcon from "../assets/img/icons/skills-tools/mysql.png";
@@ -102,7 +102,7 @@ export const SliderImagesData = [
     type: "web",
     image: web1,
     projectUrl: "https://true-mail-chi.vercel.app/",
-    githubUrl: "",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   {
     id: 3,
@@ -116,7 +116,7 @@ export const SliderImagesData = [
     type: "web",
     image: web2,
     projectUrl: "https://www.estimaitor.tech/",
-    githubUrl: "",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   {
     id: 5,
@@ -130,21 +130,21 @@ export const SliderImagesData = [
     type: "web",
     image: web3,
     projectUrl: "https://pimpact-landing-page.vercel.app/",
-    githubUrl: "",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   {
     id: 8,
     type: "web",
     image: web4,
     projectUrl: "https://appensio.ai/",
-    githubUrl: "",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   {
     id: 10,
     type: "web",
     image: web5,
     projectUrl: "https://clip-sort-frontend-web.vercel.app/",
-    githubUrl: "",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   
   {
@@ -152,29 +152,29 @@ export const SliderImagesData = [
     type: "web",
     image: web6,
     projectUrl: "https://chef-qailo-admin.vercel.app/",
-    githubUrl: "",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   
   {
     id: 14,
     type: "web",
     image: web7,
-    projectUrl: "https://pimpact-landing-page.vercel.app/",
-    githubUrl: "",
+    projectUrl: "https://mathology-landing-page.vercel.app/",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   {
     id: 16,
     type: "web",
     image: web8,
-    projectUrl: "https://appensio.ai/",
-    githubUrl: "",
+    projectUrl: "https://pimpact.vercel.app/",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
   {
     id: 18,
     type: "web",
     image: web9,
     projectUrl: "https://true-mail-chi.vercel.app/",
-    githubUrl: "",
+    githubUrl: "https://github.com/Mohsinrazaa",
   },
 ];
 
