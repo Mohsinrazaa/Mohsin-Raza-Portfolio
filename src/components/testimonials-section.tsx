@@ -13,7 +13,7 @@ const thirdColumn = testimonialsData.slice(6, 9);
 
 const TestimonialsSection = () => {
   return (
-    <div id="Testimonials">
+    <div id="Reviews">
       <MaxWidthWrapper>
         <section className="pt-32 pb-20 relative">
           <div className="container z-10 mx-auto">

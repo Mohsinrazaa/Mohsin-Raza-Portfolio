@@ -6,7 +6,7 @@ import { Link } from "react-router";
 
 const HeroSection = () => {
   return (
-    <div id="Hero" className="z-[2] flex h-scree w-full justify-center items-center">
+    <div id="Home" className="z-[2] flex h-scree w-full justify-center items-center">
       <MaxWidthWrapper>
         <div className="mt-40 md:mt-52 mb-32">
           <p

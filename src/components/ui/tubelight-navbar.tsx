@@ -87,7 +87,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
       >
         <div className="flex items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
           <a
-            href={"/#Hero"}
+            href={"/#Home"}
             className="flex items-center gap-2 mr-14"
           >
             <img
@@ -158,7 +158,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
       >
         <div className="w-full flex justify-between items-center gap-3 border border-myPalette4 backdrop-blur-sm py-2.5 px-3.5 rounded-full shadow-lg">
           <a
-            href={"/#Hero"}
+            href={"/#Home"}
             className="flex items-center gap-2 mr-14"
           >
             <img

@@ -51,6 +51,10 @@ import web6 from "../assets/img/sliderwebp/web2.webp";
 import web7 from "../assets/img/sliderwebp/web3.webp";
 import web8 from "../assets/img/sliderwebp/web4.webp";
 import web9 from "../assets/img/sliderwebp/web1.webp";
+import PostgreSQLIcon from "../assets/img/icons/skills-tools/postgresql.png";
+import MySQLIcon from "../assets/img/icons/skills-tools/mysql.png";
+import MongoDBIcon from "../assets/img/icons/skills-tools/mongodb.png";
+import PineconeIcon from "../assets/img/icons/skills-tools/pinecone.png";
 
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
@@ -63,10 +67,10 @@ import mobile8 from "../assets/img/sliderwebp/mobile8.webp";
 import mobile9 from "../assets/img/sliderwebp/mobile9.webp";
 
 export const NavLinks = [
-  { id: 1, name: "Home", url: "/#Hero", icon: House },
+  { id: 1, name: "Home", url: "/#Home", icon: House },
   { id: 2, name: "Experience", url: "/#Experience", icon: BriefcaseBusiness },
   { id: 3, name: "Work", url: "/#Work", icon: FolderGit2 },
-  { id: 3, name: "Reviews", url: "/#Testimonials", icon: Star },
+  { id: 3, name: "Reviews", url: "/#Reviews", icon: Star },
 ];
 
 export const firstName = "Mohsin";
@@ -287,63 +291,63 @@ export const ProjectCardsData = [
 ];
 
 // Testimonials Section
-export const TestimonialsSectionHeading = "What Clients Say About Me";
+export const TestimonialsSectionHeading = "What People Say About Me";
 export const TestimonialsSectionSubHeading =
-  "Don't just take my word for it. See what my clients have to say about my work.";
+  "Don't just take my word for it. See what my colleagues have to say about my work.";
 export const testimonialsData = [
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "Working with Mohsin Raza was a pleasure. I found him as someone with great experience as well as deep understanding of business solutions. He is a detail oriented, target oriented, ambitious and strong co-worker, his knowledge is vast and thorough. Mohsin Raza is a organized and customer-service oriented perfectionist, has no problem to work hard when necessary. Result driven, experienced and efficient team player. Deliver results and move on. That's Mohsin Raza's way. Mohsin Raza possesses a winning combination of solid tech skills and business sense, I learned a great deal from him. He is a a trustworthy person and I will always hold him in the highest esteem.",
+    image: MaleAvator,
+    name: "Mushood Hanif",
+    role: "Full Stack Developer",
+  },
+  {
+    text: "Mohsin Raza is an exceptional developer with a deep understanding of modern technologies and a relentless focus on delivering high-quality results. A true professional, he takes great pride in his work and consistently goes the extra mile to ensure client satisfaction.Raza possesses remarkable development skills, particularly in Python and its frameworks such as Django and Flask, and has an outstanding command of Django and Artificial Intelligence solutions. I highly recommend him to anyone seeking a reliable, talented developer who can turn complex ideas into reality.",
+    image: MaleAvator,
+    name: "Qasim Arshad",
+    role: "Team Lead",
+  },
+  {
+    text: "I strongly recommend Mohsin for his exceptional Python development skills and remarkable efficiency. His expertise in Python programming greatly contributed to the success of our project, consistently delivering high-quality solutions on time. It was a privilege to collaborate with him, and I have complete confidence in his abilities.",
+    image: MaleAvator,
+    name: "Junaid Ali",
+    role: "SQA Engineer",
+  },
+  {
+    text: "I had the opportunity to work with Mohsin on a project as a Project Manager. Mohsin is an excellent developer who consistently delivers on time while maintaining a strong attention to detail. He is highly receptive to feedback and collaborates seamlessly with his teammates. It was a pleasure working with him.",
     image: FemaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Aimen Abid",
+    role: "Project Manager",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "I’ve had the pleasure of working with Mohsin and am truly impressed by his skills and work ethic. Throughout our collaboration, Mohsin consistently demonstrated exceptional Python development expertise, particularly in web scraping, along with a solid grasp of deep learning. His attention to detail and commitment to high-quality results made him an invaluable member of our team. Beyond his technical abilities, Mohsin always brought a positive attitude and was a joy to work with. I highly recommend Mohsin Raza for any opportunity in Python, web scraping, or deep learning—he will bring a wealth of experience, skill, and professionalism to any role.",
     image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Abdul Rehman",
+    role: "Full Stack Developer",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "Mohsin is very passionate about AI and always eager to learn and explore new things. He stays up to date with the latest advancements, actively experimenting with new technologies and approaches. His curiosity, dedication to continuous improvement, and drive to push boundaries make him stand out as a developer who’s always growing. Mohsin’s enthusiasm is truly inspiring and adds great value to any team he’s part of.",
     image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Bilal Aslam",
+    role: "Android Developer",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "I had the pleasure of teaching Mohsin a course in Applied Data Science. He is very articulate, has a strong can-do attitude, and consistently demonstrates punctuality and meticulous attention to detail. Overall, Mohsin is a dedicated, hard-working individual. I would strongly recommend him for any opportunity.",
     image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Atique Abbas",
+    role: "Senior Data Engineer",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    text: "Mohsin and I worked in the same group under my leadership, and I can confidently attest to his strong skill set in data science and analytics. He is hard-working, always willing to help those around him, and truly embodies the spirit of a team player. Mohsin is an asset to any organization, and I wish him the very best in all his future endeavors.",
+    image: FemaleAvator,
+    name: "Deepthika Shiwani Muralikrishnan",
+    role: "Supervisor",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
+    text: "Mohsin is a very talented and hard-working professional with strong expertise in the field of data science. I have had the pleasure of working with him on many projects and have always been impressed by his patience, thoughtful approach, and commitment to delivering high-quality results.He consistently demonstrates a collaborative spirit and is always ready to support his team. Mohsin’s dedication, curiosity, and positive attitude truly set him apart. Keep it up, Mohsin! 'Hard work and consistency are the keys to success.'",
     image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
-  },
-  {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
-  },
-  {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
-  },
-  {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: MaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
+    name: "Muhammad Rizwan Munawar",
+    role: "Computer Vision Engineer",
   },
 ];
 
@@ -596,7 +600,26 @@ export const SkillsData2 = [
     name: "Rest API",
     icon: APIIcon,
   },
-  
+  {
+    id: 16,
+    name: "PostgreSQL",
+    icon: PostgreSQLIcon,
+  },
+  {
+    id: 17,
+    name: "MySQL",
+    icon: MySQLIcon,
+  },
+  {
+    id: 18,
+    name: "MongoDB",
+    icon: MongoDBIcon,
+  },
+  {
+    id: 19,
+    name: "Pinecone",
+    icon: PineconeIcon,
+  },
 ];
 export {
   LinkedInIcon,
