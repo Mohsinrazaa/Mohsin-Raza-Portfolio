@@ -46,8 +46,8 @@ import web1 from "../assets/img/sliderwebp/web1.webp";
 import web2 from "../assets/img/sliderwebp/web2.webp";
 import web3 from "../assets/img/sliderwebp/web3.webp";
 import web4 from "../assets/img/sliderwebp/web4.webp";
-import web5 from "../assets/img/sliderwebp/web1.webp";
-import web6 from "../assets/img/sliderwebp/web2.webp";
+import web5 from "../assets/img/sliderwebp/web5.webp";
+import web6 from "../assets/img/sliderwebp/web6.webp";
 import web7 from "../assets/img/sliderwebp/web3.webp";
 import web8 from "../assets/img/sliderwebp/web4.webp";
 import web9 from "../assets/img/sliderwebp/web1.webp";
@@ -59,12 +59,7 @@ import PineconeIcon from "../assets/img/icons/skills-tools/pinecone.png";
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
 import mobile3 from "../assets/img/sliderwebp/mobile2.webp";
-import mobile4 from "../assets/img/sliderwebp/mobile4.webp";
-import mobile5 from "../assets/img/sliderwebp/mobile5.webp";
-import mobile6 from "../assets/img/sliderwebp/mobile6.webp";
-import mobile7 from "../assets/img/sliderwebp/mobile7.webp";
-import mobile8 from "../assets/img/sliderwebp/mobile8.webp";
-import mobile9 from "../assets/img/sliderwebp/mobile9.webp";
+
 
 export const NavLinks = [
   { id: 1, name: "Home", url: "/#Home", icon: House },
@@ -106,8 +101,8 @@ export const SliderImagesData = [
     id: 2,
     type: "web",
     image: web1,
-    projectUrl: "https://tag-extractor.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+    projectUrl: "https://true-mail-chi.vercel.app/",
+    githubUrl: "",
   },
   {
     id: 3,
@@ -120,8 +115,8 @@ export const SliderImagesData = [
     id: 4,
     type: "web",
     image: web2,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
+    projectUrl: "https://www.estimaitor.tech/",
+    githubUrl: "",
   },
   {
     id: 5,
@@ -134,92 +129,52 @@ export const SliderImagesData = [
     id: 6,
     type: "web",
     image: web3,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
-  },
-  {
-    id: 7,
-    type: "phone",
-    image: mobile4,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+    projectUrl: "https://pimpact-landing-page.vercel.app/",
+    githubUrl: "",
   },
   {
     id: 8,
     type: "web",
     image: web4,
-    projectUrl: "https://online-image-compressor-1a.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Online-Image-Compressor",
-  },
-  {
-    id: 9,
-    type: "phone",
-    image: mobile5,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+    projectUrl: "https://appensio.ai/",
+    githubUrl: "",
   },
   {
     id: 10,
     type: "web",
     image: web5,
-    projectUrl: "https://tag-extractor.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+    projectUrl: "https://clip-sort-frontend-web.vercel.app/",
+    githubUrl: "",
   },
-  {
-    id: 11,
-    type: "phone",
-    image: mobile6,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
+  
   {
     id: 12,
     type: "web",
     image: web6,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
+    projectUrl: "https://chef-qailo-admin.vercel.app/",
+    githubUrl: "",
   },
-  {
-    id: 13,
-    type: "phone",
-    image: mobile7,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
-  },
+  
   {
     id: 14,
     type: "web",
     image: web7,
-    projectUrl: "https://lenob-project.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Lenob-Project",
-  },
-  {
-    id: 15,
-    type: "phone",
-    image: mobile8,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+    projectUrl: "https://pimpact-landing-page.vercel.app/",
+    githubUrl: "",
   },
   {
     id: 16,
     type: "web",
     image: web8,
-    projectUrl: "https://online-image-compressor-1a.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Online-Image-Compressor",
-  },
-  {
-    id: 17,
-    type: "phone",
-    image: mobile9,
-    projectUrl: "",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+    projectUrl: "https://appensio.ai/",
+    githubUrl: "",
   },
   {
     id: 18,
     type: "web",
     image: web9,
-    projectUrl: "https://tag-extractor.vercel.app/",
-    githubUrl: "https://github.com/Haider-Mukhtar/Tag-Extractor",
+    projectUrl: "https://true-mail-chi.vercel.app/",
+    githubUrl: "",
   },
 ];
 
