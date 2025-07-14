@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
+import { BriefcaseBusiness, Construction, FolderGit2, House, Star } from "lucide-react";
 import Photo from "../assets/img/myProfilePhoto.jpg";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 import FemaleAvator from "../assets/img/icons/female-avatar.png";
@@ -37,8 +37,8 @@ import FlaskIcon from "../assets/img/icons/skills-tools/flask.png";
 import AWSIcon from "../assets/img/icons/skills-tools/aws.png";
 import AzureIcon from "../assets/img/icons/skills-tools/azure.png";
 import APIIcon from "../assets/img/icons/skills-tools/rest-api.png";
-import EventHubProject from "../assets/img/projects/eventhubProject.png";
-import MaxFitProject from "../assets/img/projects/maxfitProject.png";
+import EventHubProject from "../assets/img/projects/EstimAitor.png";
+import MaxFitProject from "../assets/img/projects/pimpact.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 import PushNotificationProject from "../assets/img/projects/pushnotification.png";
 import CI_CDIcon from "../assets/img/icons/skills-tools/devops.png";
@@ -133,11 +133,25 @@ export const SliderImagesData = [
     githubUrl: "https://github.com/Mohsinrazaa",
   },
   {
+    id: 3,
+    type: "phone",
+    image: mobile2,
+    projectUrl: "",
+    githubUrl: "",
+  },
+  {
     id: 8,
     type: "web",
     image: web4,
     projectUrl: "https://appensio.ai/",
     githubUrl: "https://github.com/Mohsinrazaa",
+  },
+  {
+    id: 3,
+    type: "phone",
+    image: mobile2,
+    projectUrl: "",
+    githubUrl: "",
   },
   {
     id: 10,
@@ -153,6 +167,13 @@ export const SliderImagesData = [
     image: web6,
     projectUrl: "https://chef-qailo-admin.vercel.app/",
     githubUrl: "https://github.com/Mohsinrazaa",
+  },
+  {
+    id: 3,
+    type: "phone",
+    image: mobile2,
+    projectUrl: "",
+    githubUrl: "",
   },
   
   {
@@ -187,29 +208,29 @@ export const ProjectsCardViewLiveSiteButton = "View Live Site";
 export const ProjectCardsData = [
   {
     id: 1,
-    title: "EventHub App",
+    title: "EstimAitor",
     description:
-      "EventHub App, developed in React Native & Firebase, served as my internship practice application at MikroStar Tech.",
+      "EstimAitor is a web application that allows users to the AI-Powered Pre-Construction Software Automatically Detect, Measure, Compare and Label project spaces and features on architectural plans and drawings in seconds, not hours.",
     image: EventHubProject,
-    type: "Personal",
-    year: "2023",
-    technologies: ["React Native", "JavaScript", "FireBase"],
+    type: "Team",
+    year: "2025",
+    technologies: ["React", "JavaScript", "Django REST Framework", "PostgreSQL", "Vercel","Anthropic","Claude AI"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6"],
     projectUrl:
-      "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App/tree/main/EventHubAppScreenshots",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-EventHub-App",
+      "https://www.estimaitor.tech/",
+    githubUrl: "",
   },
   {
     id: 2,
-    title: "Maxfit App",
-    description: "MaxFit App, developed in React Native & Firebase.",
+    title: "PIMPact",
+    description: "PIMPact is a web app that lets users manage products, variants, suppliers, and competitors with AI-powered SEO. It also supports exporting from Odoo, Shopify, and WooCommerce, and allows custom API keys for AI agents.",
     image: MaxFitProject,
-    type: "Personal",
-    year: "2024",
-    technologies: ["React Native", "JavaScript", "FireBase"],
+    type: "Team",
+    year: "2025",
+    technologies: ["React", "JavaScript", "KINDE", "OpenAI", "FastAPI", "PostgreSQL","Python", "Vercel"],
     techColors: ["#818CF8", "#38B2AC", "#3178C6"],
-    projectUrl: "https://github.com/Haider-Mukhtar/ReactNative-MaxFit-App",
-    githubUrl: "https://github.com/Haider-Mukhtar/ReactNative-MaxFit-App",
+    projectUrl: "https://pimpact-landing-page.vercel.app/",
+    githubUrl: "",
   },
   {
     id: 3,
