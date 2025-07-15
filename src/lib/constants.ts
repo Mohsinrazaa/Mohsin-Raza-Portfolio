@@ -65,6 +65,7 @@ import NumPyIcon from "../assets/img/icons/skills-tools/numpy.png";
 import MatplotlibIcon from "../assets/img/icons/skills-tools/matplotlib.png";
 import GCPIcon from "../assets/img/icons/skills-tools/gcp.png";
 import KeyCloakIcon from "../assets/img/icons/skills-tools/keycloak.png";
+import LLMIcon from "../assets/img/icons/skills-tools/llms.png";
 
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
@@ -94,7 +95,7 @@ export const DiscordProfile = "https://discord.com/users/mohsinraza0417";
 
 // Hero Section
 export const HeroSectionHeading =
-  "Full Stack Developer </br> for  Python & AI Engineer";
+  "Full Stack Developer for  Python & AI Engineer";
 // export const HeroSectionHeading = "Creative Frontend Developer <br/> for Scalable Web & Mobile Apps ";
 export const HeroSectionSubHeading =
   "Building fast, elegant interfaces with Python, AI, and  Web Development.";
@@ -217,6 +218,7 @@ export const ProjectsSectionHeading = "My Recent Work";
 export const ProjectsSectionSubHeading =
   "Check out what I've been working on lately.";
 export const ProjectsSectionGithubButton = "View More on";
+export const ProjectsSectionLinkedinButton = "View More on";
 export const ProjectsCardViewLiveSiteButton = "View Live Site";
 export const ProjectCardsData = [
   {
@@ -460,40 +462,43 @@ export const SkillsDataGrouped = [
   { id: 15, name: "Rest API", icon: APIIcon, category: "Development Tools" },
 
   // ✅ AI Tools & Packages
-  { id: 17, name: "TensorFlow", icon: TensorFlowIcon, category: "AI Tools & Packages" },
-  { id: 19, name: "Scikit-learn", icon: ScikitLearnIcon, category: "AI Tools & Packages" },
-  { id: 20, name: "Pandas", icon: PandasIcon, category: "AI Tools & Packages" },
-  { id: 21, name: "NumPy", icon: NumPyIcon, category: "AI Tools & Packages" },
-  { id: 1, name: "Pytorch", icon: PytorchIcon, category: "AI Tools & Packages" },
-  { id: 2, name: "Cluade AI", icon: CluadeAI, category: "AI Tools & Packages" },
-  { id: 3, name: "RAG", icon: RAGIcon, category: "AI Tools & Packages" },
-  { id: 4, name: "OpenAI", icon: ChatGPTIcon, category: "AI Tools & Packages" },
-  { id: 5, name: "Anthropic", icon: AnthropicIcon, category: "AI Tools & Packages" },
-  { id: 6, name: "Ollama", icon: OllamaIcon, category: "AI Tools & Packages" },
-  { id: 7, name: "DeepSeek", icon: DeepSeekIcon, category: "AI Tools & Packages" },
-  { id: 20, name: "Matplotlib", icon: MatplotlibIcon, category: "AI Tools & Packages" },
+  { id: 16, name: "TensorFlow", icon: TensorFlowIcon, category: "AI Tools & Packages" },
+  { id: 17, name: "Scikit-learn", icon: ScikitLearnIcon, category: "AI Tools & Packages" },
+  { id: 18, name: "Pandas", icon: PandasIcon, category: "AI Tools & Packages" },
+  { id: 19, name: "NumPy", icon: NumPyIcon, category: "AI Tools & Packages" },
+  { id: 20, name: "Pytorch", icon: PytorchIcon, category: "AI Tools & Packages" },
+  { id: 21, name: "Cluade AI", icon: CluadeAI, category: "AI Tools & Packages" },
+  { id: 22, name: "RAG", icon: RAGIcon, category: "AI Tools & Packages" },
+  { id: 23, name: "OpenAI", icon: ChatGPTIcon, category: "AI Tools & Packages" },
+  { id: 24, name: "Anthropic", icon: AnthropicIcon, category: "AI Tools & Packages" },
+  { id: 25, name: "Ollama", icon: OllamaIcon, category: "AI Tools & Packages" },
+  { id: 26, name: "DeepSeek", icon: DeepSeekIcon, category: "AI Tools & Packages" },
+  { id: 27, name: "Matplotlib", icon: MatplotlibIcon, category: "AI Tools & Packages" },
+  { id: 28, name: "LLMs", icon: LLMIcon, category: "AI Tools & Packages" },
+
+
 
   // ✅ Databases
-  { id: 16, name: "PostgreSQL", icon: PostgreSQLIcon, category: "Databases" },
-  { id: 17, name: "MySQL", icon: MySQLIcon, category: "Databases" },
-  { id: 18, name: "MongoDB", icon: MongoDBIcon, category: "Databases" },
-  { id: 19, name: "Pinecone", icon: PineconeIcon, category: "Databases" },
+  { id: 29, name: "PostgreSQL", icon: PostgreSQLIcon, category: "Databases" },
+  { id: 30, name: "MySQL", icon: MySQLIcon, category: "Databases" },
+  { id: 31, name: "MongoDB", icon: MongoDBIcon, category: "Databases" },
+  { id: 32, name: "Pinecone", icon: PineconeIcon, category: "Databases" },
 
   // ✅ Infra & CI/CD
-  { id: 7, name: "Github", icon: GithubIcon, category: "Infra & CI/CD" },
-  { id: 8, name: "Docker", icon: DockerIcon, category: "Infra & CI/CD" },
-  { id: 9, name: "CI/CD Pipeline", icon: CI_CDIcon, category: "Infra & CI/CD" },
-  { id: 10, name: "Vercel", icon: VercelIcon, category: "Infra & CI/CD" },
-  { id: 11, name: "AWS", icon: AWSIcon, category: "Infra & CI/CD" },
-  { id: 11, name: "AWS S3", icon: AWSIcon, category: "Infra & CI/CD" },
-  { id: 12, name: "MS Azure", icon: AzureIcon, category: "Infra & CI/CD" },
-  { id: 21, name: "GCP", icon: GCPIcon, category: "Infra & CI/CD" },
+  { id: 33, name: "Github", icon: GithubIcon, category: "Infra & CI/CD" },
+  { id: 34, name: "Docker", icon: DockerIcon, category: "Infra & CI/CD" },
+  { id: 35, name: "CI/CD Pipeline", icon: CI_CDIcon, category: "Infra & CI/CD" },
+  { id: 36, name: "Vercel", icon: VercelIcon, category: "Infra & CI/CD" },
+  { id: 37, name: "AWS", icon: AWSIcon, category: "Infra & CI/CD" },
+  { id: 38, name: "AWS S3", icon: AWSIcon, category: "Infra & CI/CD" },
+  { id: 39, name: "MS Azure", icon: AzureIcon, category: "Infra & CI/CD" },
+  { id: 40, name: "GCP", icon: GCPIcon, category: "Infra & CI/CD" },
 
   // ✅ Auth
-  { id: 17, name: "KINDE", icon: KINDEIcon, category: "Auth" },
-  { id: 6, name: "Firebase", icon: FirebaseIcon, category: "Auth" },
-  { id: 22, name: "Azure AD", icon: AzureIcon, category: "Auth" },
-  { id: 23, name: "KeyCloak", icon: KeyCloakIcon, category: "Auth" },
+  { id: 41, name: "KINDE", icon: KINDEIcon, category: "Auth" },
+  { id: 42, name: "Firebase", icon: FirebaseIcon, category: "Auth" },
+  { id: 43, name: "Azure AD", icon: AzureIcon, category: "Auth" },
+  { id: 44, name: "KeyCloak", icon: KeyCloakIcon, category: "Auth" },
 ];
 
 export {

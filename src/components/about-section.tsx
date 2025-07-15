@@ -13,8 +13,9 @@ import {
   Pointer as Cursor,
   PointerFollower as CursorFollow,
 } from "@/components/ui/cursor";
-import { MousePointer2, Code, Database, Cloud, Shield, Brain } from 'lucide-react';
+import { MousePointer2, Code, Database, Cloud, Shield, Brain, Link } from 'lucide-react';
 import { useState } from 'react';
+import { LinkedinIcon } from './ui/linkedin-projects-btn';
 
 const AboutSection = () => {
   const [activeCategory, setActiveCategory] = useState('Development Tools');
@@ -49,9 +50,14 @@ const AboutSection = () => {
             <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
               {AboutSectionHeading}
             </div>
-            <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
+            <span className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
               {AboutSectionSubHeading}
-            </p>
+            </span>
+            <div className='flex flex-row items-center gap-2 justify-center mt-2 cursor-pointer'>
+              <a href={LinkedInProfile} target='_blank'>
+                <LinkedinIcon />
+              </a>
+            </div>
           </motion.div>
 
           <div className='mt-10 flex flex-col lg:flex-row gap-6'>
@@ -263,7 +269,7 @@ const AboutSection = () => {
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: 1.0 }}
-                    className="text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg border border-gray-100"
+                    className="text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg border border-gray-100 hover:scale-110 transition-all duration-300"
                   >
                     🔥 2083 Contributions
                   </motion.div>
@@ -271,7 +277,7 @@ const AboutSection = () => {
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: 1.1 }}
-                    className="text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg border border-gray-100"
+                    className="text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg border border-gray-100 hover:scale-110 transition-all duration-300"
                   >
                     📈 Last Year
                   </motion.div>
@@ -279,7 +285,7 @@ const AboutSection = () => {
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: 1.2 }}
-                    className="text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg border border-gray-100"
+                    className="text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg border border-gray-100 hover:scale-110 transition-all duration-300"
                   >
                     💻 Active Coder
                   </motion.div>

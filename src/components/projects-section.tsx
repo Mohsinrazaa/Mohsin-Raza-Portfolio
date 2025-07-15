@@ -35,14 +35,14 @@ const ProjectsSection = () => {
           <div className="relative font-myMainFont w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
             {ProjectsSectionHeading}
           </div>
-          <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
+          <span className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
             {ProjectsSectionSubHeading}
-          </p>
+          </span>
           <Link target="_blank" to={GitHubProfile}>
             <GithubProjectsBtn />
           </Link>
         </motion.div>
-        <div className="relative z-[2] -mt-52 mb-6">
+        <div className="relative z-[2] -mt-52 mb-6" /* position: relative for stacking cards scroll offset */>
           <StackingCards
             totalCards={ProjectCardsData.length}
             scrollOptons={{ container: { current: container } }}
@@ -61,18 +61,18 @@ const ProjectsSection = () => {
                   >
                     <div className="flex-1 flex flex-col justify-between font-myMainFont">
                       <div>
-                        <p className="font-bold text-sm md:text-md mb-2 flex flex-row items-center gap-2">
+                        <span className="font-bold text-sm md:text-md mb-2 flex flex-row items-center gap-2">
                           {project.type}
                           <p className="h-5 w-0.5 bg-myPalette6" />
                           {project.year}
-                        </p>
+                        </span>
                         <h3 className="font-bold text-2xl md:text-3xl">
                           {project.title}
                         </h3>
                         <div className="w-full h-[1px] bg-myPalette6 my-3 lg:my-5" />
-                        <p className="font-normal text-base md:text-md">
+                        <span className="font-normal text-base md:text-md">
                           {project.description}
-                        </p>
+                        </span>
                         <div className="flex flex-wrap items-center mt-3 lg:mt-5">
                           {project.technologies.map((techstack, techIndex) => (
                             <div
