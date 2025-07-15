@@ -1,4 +1,5 @@
 import {
+  LinkedInProfile,
   testimonialsData,
   TestimonialsSectionHeading,
   TestimonialsSectionSubHeading,
@@ -6,6 +7,7 @@ import {
 import { motion } from "motion/react";
 import { TestimonialsColumn } from "./ui/testimonials-columns-1";
 import MaxWidthWrapper from "./max-width-wrapper";
+import { LinkedinIcon } from "./ui/linkedin-projects-btn";
 
 const firstColumn = testimonialsData.slice(0, 3);
 const secondColumn = testimonialsData.slice(3, 6);
@@ -31,9 +33,14 @@ const TestimonialsSection = () => {
               <div className="relative font-myMainFont text-center flex-1 w-full text-4xl md:text-6xl font-semibold flex justify-center items-center text-myPalette9">
                 {TestimonialsSectionHeading}
               </div>
-              <p className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
+              <span className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
                 {TestimonialsSectionSubHeading}
-              </p>
+              </span>
+              <div className='flex flex-row items-center gap-2 justify-center mt-2 cursor-pointer'>
+              <a href={LinkedInProfile} target='_blank'>
+                <LinkedinIcon />
+              </a>
+            </div>
             </motion.div>
 
             <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[640px] overflow-hidden">

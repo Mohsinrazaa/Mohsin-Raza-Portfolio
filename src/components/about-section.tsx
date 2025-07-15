@@ -13,9 +13,8 @@ import {
   Pointer as Cursor,
   PointerFollower as CursorFollow,
 } from "@/components/ui/cursor";
-import { MousePointer2, Code, Database, Cloud, Shield, Brain, Link } from 'lucide-react';
+import { MousePointer2, Code, Database, Cloud, Shield, Brain } from 'lucide-react';
 import { useState } from 'react';
-import { LinkedinIcon } from './ui/linkedin-projects-btn';
 
 const AboutSection = () => {
   const [activeCategory, setActiveCategory] = useState('Development Tools');
@@ -53,11 +52,6 @@ const AboutSection = () => {
             <span className="text-myPalette9 text-base md:text-lg font-medium text-center font-myMainFont mt-3">
               {AboutSectionSubHeading}
             </span>
-            <div className='flex flex-row items-center gap-2 justify-center mt-2 cursor-pointer'>
-              <a href={LinkedInProfile} target='_blank'>
-                <LinkedinIcon />
-              </a>
-            </div>
           </motion.div>
 
           <div className='mt-10 flex flex-col lg:flex-row gap-6'>
