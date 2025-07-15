@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Construction, FolderGit2, House, Star } from "lucide-react";
+import { BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
 import Photo from "../assets/img/myProfilePhoto.jpg";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 import FemaleAvator from "../assets/img/icons/female-avatar.png";
@@ -8,6 +8,7 @@ import DjangoIcon from "../assets/img/icons/skills-tools/django.png";
 import BootstrapIcon from "../assets/img/icons/skills-tools/bootstrap.png";
 import ChromeIcon from "../assets/img/icons/skills-tools/chrome.png";
 import CSSIcon from "../assets/img/icons/skills-tools/css.png";
+import KINDEIcon from "../assets/img/icons/skills-tools/kinde.png";
 import FirebaseIcon from "../assets/img/icons/skills-tools/firebase.png";
 import GithubIcon from "../assets/img/icons/skills-tools/github.png";
 import HTMLIcon from "../assets/img/icons/skills-tools/html.png";
@@ -19,6 +20,8 @@ import LinkedInIcon from "../assets/img/icons/social-icons/linkedin.png";
 import DiscordIcon from "../assets/img/icons/social-icons/discord.png";
 import InstagramIcon from "../assets/img/icons/social-icons/instagram.png";
 import MediumIcon from "../assets/img/icons/social-icons/medium.png";
+import FacebookIcon from "../assets/img/icons/social-icons/facebook.png";
+import KaggleIcon from "../assets/img/icons/social-icons/discord.png";
 import DigiMarkDevelopersLogo from "../assets/img/companies/digimark.png";
 import EnlaticsLogo from "../assets/img/companies/enlatics.jpg";
 import MosesTechnologiesLogo from "../assets/img/companies/moses.jpg";
@@ -55,6 +58,13 @@ import PostgreSQLIcon from "../assets/img/icons/skills-tools/postgresql.png";
 import MySQLIcon from "../assets/img/icons/skills-tools/mysql.png";
 import MongoDBIcon from "../assets/img/icons/skills-tools/mongodb.png";
 import PineconeIcon from "../assets/img/icons/skills-tools/pinecone.png";
+import TensorFlowIcon from "../assets/img/icons/skills-tools/tensorflow.png";
+import ScikitLearnIcon from "../assets/img/icons/skills-tools/sklearn.png";
+import PandasIcon from "../assets/img/icons/skills-tools/pandas.png";
+import NumPyIcon from "../assets/img/icons/skills-tools/numpy.png";
+import MatplotlibIcon from "../assets/img/icons/skills-tools/matplotlib.png";
+import GCPIcon from "../assets/img/icons/skills-tools/gcp.png";
+import KeyCloakIcon from "../assets/img/icons/skills-tools/keycloak.png";
 
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
@@ -78,6 +88,9 @@ export const GitHubProfile = "https://github.com/Mohsinrazaa";
 export const LinkedInProfile = "https://www.linkedin.com/in/mohsin-raza-40/";
 export const MediumProfile = "https://medium.com/@razamh";
 export const InstagramProfile = "https://www.instagram.com/mohsin_raza_40/";
+export const FacebookProfile = "https://www.facebook.com/razam66";
+export const KaggleProfile = "https://www.kaggle.com/razamh";
+export const DiscordProfile = "https://discord.com/users/mohsinraza0417";
 
 // Hero Section
 export const HeroSectionHeading =
@@ -427,182 +440,70 @@ export const AboutSectionHeading = "A Glimpse into My World";
 export const AboutSectionSubHeading =
   "Here, you'll find a snapshot of my coding activity, the tools I master, my key skills, and ways to connect with me.";
 export const AboutSectionSkillsHeading = "My Skills & Tools";
-export const SkillsData = [
-  {
-    id: 1,
-    name: "Python",
-    icon: PythonIcon,
-  },
 
-  {
-    id: 2,
-    name: "BootStrap",
-    icon: BootstrapIcon,
-  },
-  {
-    id: 3,
-    name: "Chrome",
-    icon: ChromeIcon,
-  },
-  {
-    id: 4,
-    name: "CSS",
-    icon: CSSIcon,
-  },
-  {
-    id: 6,
-    name: "Firebase",
-    icon: FirebaseIcon,
-  },
-  {
-    id: 7,
-    name: "Github",
-    icon: GithubIcon,
-  },
-  {
-    id: 8,
-    name: "HTML",
-    icon: HTMLIcon,
-  },
-  {
-    id: 9,
-    name: "JavaScript",
-    icon: JavaScriptIcon,
-  },
-  {
-    id: 10,
-    name: "React",
-    icon: ReactIcon,
-  },
-  {
-    id: 12,
-    name: "Tailwind CSS",
-    icon: TailwindCSSIcon,
-  },
-  {
-    id: 13,
-    name: "TypeScript",
-    icon: TypeScriptIcon,
-  },
-  {
-    id: 14,
-    name: "VS Code",
-    icon: VSCodeIcon,
-  },
-  {
-    id: 15,
-    name: "Django",
-    icon: DjangoIcon,
-  },
-  {
-    id: 16,
-    name: "FastAPI",
-    icon: FastAPI,
-  },
+export const SkillsDataGrouped = [
+  // ✅ Development Tools
+  { id: 1, name: "Python", icon: PythonIcon, category: "Development Tools" },
+  { id: 2, name: "BootStrap", icon: BootstrapIcon, category: "Development Tools" },
+  { id: 3, name: "Chrome", icon: ChromeIcon, category: "Development Tools" },
+  { id: 4, name: "CSS", icon: CSSIcon, category: "Development Tools" },
+  { id: 8, name: "HTML", icon: HTMLIcon, category: "Development Tools" },
+  { id: 9, name: "JavaScript", icon: JavaScriptIcon, category: "Development Tools" },
+  { id: 10, name: "React", icon: ReactIcon, category: "Development Tools" },
+  { id: 12, name: "Tailwind CSS", icon: TailwindCSSIcon, category: "Development Tools" },
+  { id: 13, name: "TypeScript", icon: TypeScriptIcon, category: "Development Tools" },
+  { id: 14, name: "VS Code", icon: VSCodeIcon, category: "Development Tools" },
+  { id: 15, name: "Django", icon: DjangoIcon, category: "Development Tools" },
+  { id: 16, name: "FastAPI", icon: FastAPI, category: "Development Tools" },
+  { id: 13, name: "Selenium", icon: SeleniumIcon, category: "Development Tools" },
+  { id: 14, name: "Flask", icon: FlaskIcon, category: "Development Tools" },
+  { id: 15, name: "Rest API", icon: APIIcon, category: "Development Tools" },
+
+  // ✅ AI Tools & Packages
+  { id: 17, name: "TensorFlow", icon: TensorFlowIcon, category: "AI Tools & Packages" },
+  { id: 19, name: "Scikit-learn", icon: ScikitLearnIcon, category: "AI Tools & Packages" },
+  { id: 20, name: "Pandas", icon: PandasIcon, category: "AI Tools & Packages" },
+  { id: 21, name: "NumPy", icon: NumPyIcon, category: "AI Tools & Packages" },
+  { id: 1, name: "Pytorch", icon: PytorchIcon, category: "AI Tools & Packages" },
+  { id: 2, name: "Cluade AI", icon: CluadeAI, category: "AI Tools & Packages" },
+  { id: 3, name: "RAG", icon: RAGIcon, category: "AI Tools & Packages" },
+  { id: 4, name: "OpenAI", icon: ChatGPTIcon, category: "AI Tools & Packages" },
+  { id: 5, name: "Anthropic", icon: AnthropicIcon, category: "AI Tools & Packages" },
+  { id: 6, name: "Ollama", icon: OllamaIcon, category: "AI Tools & Packages" },
+  { id: 7, name: "DeepSeek", icon: DeepSeekIcon, category: "AI Tools & Packages" },
+  { id: 20, name: "Matplotlib", icon: MatplotlibIcon, category: "AI Tools & Packages" },
+
+  // ✅ Databases
+  { id: 16, name: "PostgreSQL", icon: PostgreSQLIcon, category: "Databases" },
+  { id: 17, name: "MySQL", icon: MySQLIcon, category: "Databases" },
+  { id: 18, name: "MongoDB", icon: MongoDBIcon, category: "Databases" },
+  { id: 19, name: "Pinecone", icon: PineconeIcon, category: "Databases" },
+
+  // ✅ Infra & CI/CD
+  { id: 7, name: "Github", icon: GithubIcon, category: "Infra & CI/CD" },
+  { id: 8, name: "Docker", icon: DockerIcon, category: "Infra & CI/CD" },
+  { id: 9, name: "CI/CD Pipeline", icon: CI_CDIcon, category: "Infra & CI/CD" },
+  { id: 10, name: "Vercel", icon: VercelIcon, category: "Infra & CI/CD" },
+  { id: 11, name: "AWS", icon: AWSIcon, category: "Infra & CI/CD" },
+  { id: 11, name: "AWS S3", icon: AWSIcon, category: "Infra & CI/CD" },
+  { id: 12, name: "MS Azure", icon: AzureIcon, category: "Infra & CI/CD" },
+  { id: 21, name: "GCP", icon: GCPIcon, category: "Infra & CI/CD" },
+
+  // ✅ Auth
+  { id: 17, name: "KINDE", icon: KINDEIcon, category: "Auth" },
+  { id: 6, name: "Firebase", icon: FirebaseIcon, category: "Auth" },
+  { id: 22, name: "Azure AD", icon: AzureIcon, category: "Auth" },
+  { id: 23, name: "KeyCloak", icon: KeyCloakIcon, category: "Auth" },
 ];
-export const SkillsData2 = [
-  {
-    id: 1,
-    name: "Pytorch",
-    icon: PytorchIcon,
-  },
-  {
-    id: 2,
-    name: "Cluade AI",
-    icon: CluadeAI,
-  },
-  {
-    id: 3,
-    name: "RAG",
-    icon: RAGIcon,
-  },
-  {
-    id: 4,
-    name: "OpenAI",
-    icon: ChatGPTIcon,
-  },
-  {
-    id: 5,
-    name: "Anthropic",
-    icon: AnthropicIcon,
-  },
-  {
-    id: 6,
-    name: "Ollama",
-    icon: OllamaIcon,
-  },
-  {
-    id: 7,
-    name: "DeepSeek",
-    icon: DeepSeekIcon,
-  },
-  {
-    id: 8,
-    name: "Docker",
-    icon: DockerIcon,
-  },
-  {
-    id: 9,
-    name: "CI/CD Pipeline",
-    icon: CI_CDIcon,
-  },
-  {
-    id: 10,
-    name: "Vercel",
-    icon: VercelIcon,
-  },
-  {
-    id: 11,
-    name: "AWS",
-    icon: AWSIcon,
-  },
-  {
-    id: 12,
-    name: "MS Azure",
-    icon: AzureIcon,
-  },
-  {
-    id: 13,
-    name: "Selenium",
-    icon: SeleniumIcon,
-  },
-  {
-    id: 14,
-    name: "Flask",
-    icon: FlaskIcon,
-  },
-  {
-    id: 15,
-    name: "Rest API",
-    icon: APIIcon,
-  },
-  {
-    id: 16,
-    name: "PostgreSQL",
-    icon: PostgreSQLIcon,
-  },
-  {
-    id: 17,
-    name: "MySQL",
-    icon: MySQLIcon,
-  },
-  {
-    id: 18,
-    name: "MongoDB",
-    icon: MongoDBIcon,
-  },
-  {
-    id: 19,
-    name: "Pinecone",
-    icon: PineconeIcon,
-  },
-];
+
 export {
   LinkedInIcon,
   DiscordIcon,
   InstagramIcon,
   MediumIcon,
   GithubIcon,
+  FacebookIcon,
+  KaggleIcon
 };
 
 // Footer Section
