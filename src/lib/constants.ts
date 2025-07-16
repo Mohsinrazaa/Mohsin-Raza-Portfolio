@@ -43,6 +43,8 @@ import APIIcon from "../assets/img/icons/skills-tools/rest-api.png";
 import EventHubProject from "../assets/img/projects/EstimAitor.png";
 import MaxFitProject from "../assets/img/projects/pimpact.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
+import ClipSortProject from "../assets/img/projects/clipsort.png";
+import MathologyProject from "../assets/img/projects/mathology.png";
 import PushNotificationProject from "../assets/img/projects/pushnotification.png";
 import CI_CDIcon from "../assets/img/icons/skills-tools/devops.png";
 import web1 from "../assets/img/sliderwebp/web1.webp";
@@ -280,6 +282,73 @@ export const ProjectCardsData = [
     techColors: ["#818CF8", "#38B2AC", "#3178C6"],
     projectUrl:
       "https://grokappfinance-cbeph7g6bkb4h4fj.canadacentral-01.azurewebsites.net/",
+    githubUrl:
+      "",
+  },
+  {
+    id: 5,
+    title: "ChefQailo",
+    description: "ChefQailo is a mobile app that allows users to manage their recipes, ingredients, and cooking times with AI-powered suggestions.",
+    image: PushNotificationProject,
+    type: "Team",
+    year: "2025",
+    technologies: [
+      "Python",
+      "Django REST Framework",
+      "PostgreSQL",
+      "React Native",
+      "Expo",
+      "OpenAI",
+      "Vercel",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://chef-qailo-admin.vercel.app/",
+    githubUrl:
+      "",
+  },
+  {
+    id: 6,
+    title: "ClipSort",
+    description: "ClipSort is a desktop app that allows users to sort their images and videos by its content and time stamp.",
+    image: ClipSortProject,
+    type: "Team",
+    year: "2025",
+    technologies: [
+      "Python",
+      "Hugging Face API",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Electron JS",
+      "React",
+      "Vercel",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://clip-sort-frontend-web.vercel.app/",
+    githubUrl:
+      "",
+  },
+  {
+    id: 7,
+    title: "Mathology",
+    description: "Mathology is an AI-powered EdTech platform that personalizes math learning through adaptive learning, gamification, and real-world applications. It bridges learning gaps, boosts confidence, and aligns with global curricula for K-12 students.",
+    image: MathologyProject,
+    type: "Personal",
+    year: "2025",
+    technologies: [
+      "Python",
+      "TypeScript",
+      "PostgreSQL",
+      "React",
+      "FastAPI",
+      "Vercel",
+      "OpenAI",
+      "Claude AI",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://mathology-landing-page.vercel.app/",
     githubUrl:
       "",
   },
