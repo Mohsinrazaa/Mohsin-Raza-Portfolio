@@ -59,7 +59,7 @@ const AboutSection = () => {
         </div>
       </div>
       <MaxWidthWrapper>
-        <div  className='pt-32 pb-10 lg:mx-16'>
+        <div className='pt-32 pb-10 lg:mx-16'>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -129,7 +129,7 @@ const AboutSection = () => {
 
               {/* Category Tabs */}
               <div className="flex flex-wrap gap-2 mb-6 justify-center">
-                {categories.map((category, index) => {
+                {categories.map((category, _) => {
                   const IconComponent = category.icon;
                   return (
                     <motion.button
