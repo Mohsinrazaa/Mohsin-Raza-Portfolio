@@ -72,6 +72,7 @@ import LLMIcon from "../assets/img/icons/skills-tools/llms.png";
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
 import mobile3 from "../assets/img/sliderwebp/mobile2.webp";
+import ChefQailoProject from "../assets/img/projects/qailo.png";
 
 
 export const NavLinks = [
@@ -289,7 +290,7 @@ export const ProjectCardsData = [
     id: 5,
     title: "ChefQailo",
     description: "ChefQailo is a mobile app that allows users to manage their recipes, ingredients, and cooking times with AI-powered suggestions.",
-    image: PushNotificationProject,
+    image: ChefQailoProject,
     type: "Team",
     year: "2025",
     technologies: [
