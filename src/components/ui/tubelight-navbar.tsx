@@ -57,7 +57,7 @@ export function TubeLightNavBar({ items, className, firstName }: NavBarProps) {
         });
       },
       {
-        threshold: 0.2, // Trigger when 50% of the section is visible
+        threshold: 0.1, // Trigger when 50% of the section is visible
         rootMargin: "-50px 0px -50px 0px" // Adjust the margins as needed
       }
     );

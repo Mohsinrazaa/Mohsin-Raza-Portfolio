@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
+import { Brain, BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
 import Photo from "../assets/img/myProfilePhoto.jpg";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
 import FemaleAvator from "../assets/img/icons/female-avatar.png";
@@ -76,7 +76,8 @@ export const NavLinks = [
   { id: 1, name: "Home", url: "/#Home", icon: House },
   { id: 2, name: "Experience", url: "/#Experience", icon: BriefcaseBusiness },
   { id: 3, name: "Work", url: "/#Work", icon: FolderGit2 },
-  { id: 3, name: "Reviews", url: "/#Reviews", icon: Star },
+  { id: 4, name: "Skills", url: "/#Skills", icon: Brain },
+  { id: 5, name: "Reviews", url: "/#Reviews", icon: Star },
 ];
 
 export const firstName = "Mohsin";

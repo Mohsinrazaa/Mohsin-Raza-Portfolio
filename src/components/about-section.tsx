@@ -37,9 +37,29 @@ const AboutSection = () => {
   ];
 
   return (
-    <div>
+    <div id="Skills" className="relative">
+      {/* Enhanced Animated Background Elements */}
+      <div className="absolute inset-0 pointer-events-none z-0">
+        {/* Floating circles */}
+        <div className="absolute top-10 left-10 w-12 h-12 bg-blue-200 rounded-full animate-float opacity-20"></div>
+        <div className="absolute bottom-20 right-20 w-16 h-16 bg-purple-200 rounded-full animate-float animation-delay-400 opacity-15"></div>
+        {/* Floating triangle */}
+        <svg className="absolute top-32 right-32 w-10 h-10 animate-spin-slow opacity-10" viewBox="0 0 100 100">
+          <polygon points="50,15 90,85 10,85" fill="#a5b4fc" />
+        </svg>
+        {/* Animated wave */}
+        <div className="absolute bottom-0 left-0 w-full h-8 overflow-hidden">
+          <svg className="w-full h-full animate-wave" viewBox="0 0 1440 320">
+            <path fill="#a7f3d0" fillOpacity="0.2" d="M0,160L80,170.7C160,181,320,203,480,197.3C640,192,800,160,960,154.7C1120,149,1280,171,1360,181.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+          </svg>
+        </div>
+        {/* Floating code symbol */}
+        <div className="absolute top-24 left-1/2 text-4xl text-blue-300 opacity-10 animate-float" style={{ transform: 'translateX(-50%)' }}>
+          {'{ }'}
+        </div>
+      </div>
       <MaxWidthWrapper>
-        <div className='pt-32 pb-10 lg:mx-16'>
+        <div  className='pt-32 pb-10 lg:mx-16'>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -225,8 +245,64 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className='hidden lg:block bg-white border border-myPalette2 shadow-lg rounded-3xl mt-6 relative overflow-hidden'
           >
+            {/* Animated Background Pattern */}
+            <div className="absolute inset-0 pointer-events-none">
+              {/* Floating geometric shapes */}
+              <div className="absolute top-10 left-10 w-8 h-8 bg-gray-200 rounded-full animate-pulse opacity-20"></div>
+              <div className="absolute top-20 right-16 w-6 h-6 bg-gray-300 rounded-full animate-bounce opacity-15 animation-delay-300"></div>
+              <div className="absolute bottom-32 left-20 w-4 h-4 bg-gray-200 rounded-full animate-pulse opacity-25 animation-delay-600"></div>
+              <div className="absolute bottom-20 right-10 w-5 h-5 bg-gray-300 rounded-full animate-bounce opacity-20 animation-delay-900"></div>
+
+              {/* Floating squares */}
+              <div className="absolute top-32 left-32 w-3 h-3 bg-green-200 transform rotate-45 animate-spin-slow opacity-10"></div>
+              <div className="absolute top-40 right-40 w-4 h-4 bg-emerald-200 transform rotate-45 animate-spin-slow opacity-15 animation-delay-500"></div>
+              <div className="absolute bottom-40 left-40 w-2 h-2 bg-green-300 transform rotate-45 animate-spin-slow opacity-20 animation-delay-800"></div>
+
+              {/* Moving waves */}
+              <div className="absolute top-0 left-0 w-full h-full">
+                <div className="absolute top-16 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-gray-200 to-transparent animate-wave opacity-30"></div>
+                <div className="absolute top-48 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-green-200 to-transparent animate-wave opacity-25 animation-delay-400"></div>
+                <div className="absolute bottom-24 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-emerald-200 to-transparent animate-wave opacity-20 animation-delay-700"></div>
+              </div>
+
+              {/* Pulsing dots pattern */}
+              <div className="absolute inset-0 opacity-10">
+                <div className="absolute top-8 left-8 w-1 h-1 bg-gray-400 rounded-full animate-ping"></div>
+                <div className="absolute top-12 right-12 w-1 h-1 bg-green-400 rounded-full animate-ping animation-delay-200"></div>
+                <div className="absolute bottom-16 left-16 w-1 h-1 bg-emerald-400 rounded-full animate-ping animation-delay-400"></div>
+                <div className="absolute bottom-8 right-8 w-1 h-1 bg-gray-400 rounded-full animate-ping animation-delay-600"></div>
+                <div className="absolute top-24 left-24 w-1 h-1 bg-green-400 rounded-full animate-ping animation-delay-800"></div>
+                <div className="absolute top-36 right-28 w-1 h-1 bg-emerald-400 rounded-full animate-ping animation-delay-1000"></div>
+              </div>
+
+              {/* Gradient orbs */}
+              <div className="absolute top-4 right-4 w-32 h-32 bg-gradient-to-br from-gray-100 to-transparent rounded-full animate-pulse opacity-20"></div>
+              <div className="absolute bottom-4 left-4 w-28 h-28 bg-gradient-to-br from-green-100 to-transparent rounded-full animate-pulse opacity-15 animation-delay-500"></div>
+
+              {/* Floating code symbols */}
+              <div className="absolute top-12 left-12 text-gray-300 opacity-20 animate-float text-sm">{ }</div>
+              <div className="absolute top-28 right-20 text-green-300 opacity-15 animate-float text-xs animation-delay-300"></div>
+              <div className="absolute bottom-28 left-28 text-emerald-300 opacity-20 animate-float text-sm animation-delay-600">{ }</div>
+              <div className="absolute bottom-12 right-12 text-gray-300 opacity-15 animate-float text-xs animation-delay-900"></div>
+            </div>
+
             {/* Header Section */}
-            <div className="relative bg-gradient-to-r from-gray-900 via-black to-gray-800 p-6 text-white">
+            <div className="relative bg-gradient-to-r from-gray-900 via-black to-gray-800 p-6 text-white overflow-hidden">
+              {/* Header animated background */}
+              <div className="absolute inset-0 pointer-events-none">
+                {/* Moving grid pattern */}
+                <div className="absolute inset-0 opacity-10">
+                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent animate-slide-right"></div>
+                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-white to-transparent animate-slide-down animation-delay-500"></div>
+                </div>
+
+                {/* Floating particles in header */}
+                <div className="absolute top-2 left-8 w-1 h-1 bg-white rounded-full animate-ping opacity-60"></div>
+                <div className="absolute top-8 right-16 w-1 h-1 bg-white rounded-full animate-ping opacity-40 animation-delay-300"></div>
+                <div className="absolute bottom-4 left-16 w-1 h-1 bg-white rounded-full animate-ping opacity-50 animation-delay-600"></div>
+                <div className="absolute bottom-8 right-8 w-1 h-1 bg-white rounded-full animate-ping opacity-30 animation-delay-900"></div>
+              </div>
+
               <div className="absolute inset-0 bg-white/5" />
               <div className="relative z-10 text-center">
                 <motion.h3
@@ -247,9 +323,9 @@ const AboutSection = () => {
                 </motion.p>
               </div>
 
-              {/* Decorative Elements */}
-              <div className="absolute top-2 right-2 w-20 h-20 bg-white/10 rounded-full blur-xl" />
-              <div className="absolute bottom-2 left-2 w-16 h-16 bg-white/10 rounded-full blur-lg" />
+              {/* Decorative Elements with animation */}
+              <div className="absolute top-2 right-2 w-20 h-20 bg-white/10 rounded-full blur-xl animate-pulse" />
+              <div className="absolute bottom-2 left-2 w-16 h-16 bg-white/10 rounded-full blur-lg animate-pulse animation-delay-500" />
             </div>
 
             {/* Calendar Container */}
@@ -301,9 +377,9 @@ const AboutSection = () => {
                 </div>
               </div>
 
-              {/* Bottom Decorative Elements */}
-              <div className="absolute -bottom-2 -right-2 w-24 h-24 bg-gradient-to-br from-black/20 to-black/20 rounded-full blur-2xl" />
-              <div className="absolute -bottom-2 -left-2 w-20 h-20 bg-gradient-to-br from-white/20 to-white/20 rounded-full blur-xl" />
+              {/* Bottom Decorative Elements with animation */}
+              <div className="absolute -bottom-2 -right-2 w-24 h-24 bg-gradient-to-br from-black/20 to-black/20 rounded-full blur-2xl animate-pulse" />
+              <div className="absolute -bottom-2 -left-2 w-20 h-20 bg-gradient-to-br from-white/20 to-white/20 rounded-full blur-xl animate-pulse animation-delay-300" />
             </div>
 
             {/* Achievement Badge */}
@@ -318,6 +394,53 @@ const AboutSection = () => {
           </motion.div>
         </div>
       </MaxWidthWrapper >
+      {/* Custom animation styles */}
+      <style>{`
+        @keyframes wave {
+          0% { transform: translateX(-100%); }
+          100% { transform: translateX(100%); }
+        }
+        @keyframes spin-slow {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-20px); }
+        }
+        @keyframes slide-right {
+          0% { transform: translateX(-100%); }
+          100% { transform: translateX(100%); }
+        }
+        @keyframes slide-down {
+          0% { transform: translateY(-100%); }
+          100% { transform: translateY(100%); }
+        }
+        .animate-wave {
+          animation: wave 8s linear infinite;
+        }
+        .animate-spin-slow {
+          animation: spin-slow 10s linear infinite;
+        }
+        .animate-float {
+          animation: float 4s ease-in-out infinite;
+        }
+        .animate-slide-right {
+          animation: slide-right 4s ease-in-out infinite;
+        }
+        .animate-slide-down {
+          animation: slide-down 5s ease-in-out infinite;
+        }
+        .animation-delay-200 { animation-delay: 0.2s; }
+        .animation-delay-300 { animation-delay: 0.3s; }
+        .animation-delay-400 { animation-delay: 0.4s; }
+        .animation-delay-500 { animation-delay: 0.5s; }
+        .animation-delay-600 { animation-delay: 0.6s; }
+        .animation-delay-700 { animation-delay: 0.7s; }
+        .animation-delay-800 { animation-delay: 0.8s; }
+        .animation-delay-900 { animation-delay: 0.9s; }
+        .animation-delay-1000 { animation-delay: 1s; }
+      `}</style>
     </div >
 
   )

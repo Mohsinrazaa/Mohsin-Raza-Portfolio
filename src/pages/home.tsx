@@ -1,6 +1,5 @@
 import Navbar from "@/components/navbar";
 import HeroSection from "@/components/hero-section";
-// import { SmoothCursor } from "@/components/ui/smooth-cursor";
 import ImagesSliderSection from "@/components/images-slider-section";
 import ProjectsSection from "@/components/projects-section";
 import TestimonialsSection from "@/components/testimonials-section";
@@ -9,14 +8,6 @@ import AboutSection from "@/components/about-section";
 import Footer from "@/components/footer";
 
 const Home = () => {
-  // const [time, setTime] = useState(moment().format("LTS"));
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setTime(moment().format("LTS"));
-  //   }, 1000);
-  //   return () => clearInterval(interval);
-  // }, []);
   return (
     <div className="flex flex-col bg-myBackground">
       {/* <SmoothCursor /> */}
@@ -29,14 +20,6 @@ const Home = () => {
       <AboutSection />
       <TestimonialsSection />
       <Footer />
-      {/* <div className="absolute z-[4] bottom-2 right-2 flex gap-2 items-end justify-end">
-        <ModeToggleBtn />
-        <div className="border-2 border-myPalette1 rounded-full px-2 py-0.5">
-          <p className="text-myPalette1 text-md font-medium font-myMainFont">
-            {time}
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 };
