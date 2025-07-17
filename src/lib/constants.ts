@@ -73,6 +73,7 @@ import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
 import mobile3 from "../assets/img/sliderwebp/mobile2.webp";
 import ChefQailoProject from "../assets/img/projects/qailo.png";
+import WrokflowIcon from "../assets/img/projects/workflow.png";
 
 
 export const NavLinks = [
@@ -350,6 +351,28 @@ export const ProjectCardsData = [
     techColors: ["#818CF8", "#38B2AC", "#3178C6"],
     projectUrl:
       "https://mathology-landing-page.vercel.app/",
+    githubUrl:
+      "",
+  },
+  {
+    id: 8,
+    title: "End-to-End PDF Vectorization and Search Infrastructure",
+    description: "A cloud-native PDF pipeline that extracts, chunks, and vectorizes text into Pinecone, with APIs for seamless integration. Deployable on Google Cloud and Docker.",
+    image: WrokflowIcon,
+    type: "Personal",
+    year: "2025",
+    technologies: [
+      "Python",
+      "Docker",
+      "GCB",
+      "Pinecone",
+      "Sentence Transformers",
+      "Docker Compose",
+      "REST API"
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "",
     githubUrl:
       "",
   },
