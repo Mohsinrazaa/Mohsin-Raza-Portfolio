@@ -69,6 +69,9 @@ import GCPIcon from "../assets/img/icons/skills-tools/gcp.png";
 import KeyCloakIcon from "../assets/img/icons/skills-tools/keycloak.png";
 import LLMIcon from "../assets/img/icons/skills-tools/llms.png";
 import HuggingFaceIcon from "../assets/img/icons/skills-tools/huggingface.jpg";
+import ChromaIcon from "../assets/img/icons/skills-tools/chroma.png";
+import StreamlitIcon from "../assets/img/icons/skills-tools/streamlit.png";
+import LangChainIcon from "../assets/img/icons/skills-tools/langchain.jpg";
 
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
@@ -582,6 +585,7 @@ export const SkillsDataGrouped = [
   { id: 30, name: "MySQL", icon: MySQLIcon, category: "Databases" },
   { id: 31, name: "MongoDB", icon: MongoDBIcon, category: "Databases" },
   { id: 32, name: "Pinecone", icon: PineconeIcon, category: "Databases" },
+  { id: 33, name: "Chroma", icon: ChromaIcon, category: "Databases" },
 
   // ✅ Infra & CI/CD
   { id: 33, name: "Github", icon: GithubIcon, category: "Infra & CI/CD" },
@@ -592,6 +596,8 @@ export const SkillsDataGrouped = [
   { id: 38, name: "AWS S3", icon: AWSIcon, category: "Infra & CI/CD" },
   { id: 39, name: "MS Azure", icon: AzureIcon, category: "Infra & CI/CD" },
   { id: 40, name: "GCP", icon: GCPIcon, category: "Infra & CI/CD" },
+  { id: 41, name: "Streamlit", icon: StreamlitIcon, category: "Infra & CI/CD" },
+  { id: 42, name: "LangChain", icon: LangChainIcon, category: "Infra & CI/CD" },
 
   // ✅ Auth
   { id: 41, name: "KINDE", icon: KINDEIcon, category: "Auth" },
