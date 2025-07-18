@@ -68,7 +68,7 @@ import MatplotlibIcon from "../assets/img/icons/skills-tools/matplotlib.png";
 import GCPIcon from "../assets/img/icons/skills-tools/gcp.png";
 import KeyCloakIcon from "../assets/img/icons/skills-tools/keycloak.png";
 import LLMIcon from "../assets/img/icons/skills-tools/llms.png";
-import HuggingFaceIcon from "../assets/img/icons/skills-tools/huggingface.png";
+import HuggingFaceIcon from "../assets/img/icons/skills-tools/huggingface.jpg";
 
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
