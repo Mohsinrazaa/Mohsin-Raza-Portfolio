@@ -68,6 +68,7 @@ import MatplotlibIcon from "../assets/img/icons/skills-tools/matplotlib.png";
 import GCPIcon from "../assets/img/icons/skills-tools/gcp.png";
 import KeyCloakIcon from "../assets/img/icons/skills-tools/keycloak.png";
 import LLMIcon from "../assets/img/icons/skills-tools/llms.png";
+import HuggingFaceIcon from "../assets/img/icons/skills-tools/huggingface.png";
 
 import mobile1 from "../assets/img/sliderwebp/mobile3.webp";
 import mobile2 from "../assets/img/sliderwebp/mobile1.webp";
@@ -572,6 +573,7 @@ export const SkillsDataGrouped = [
   { id: 26, name: "DeepSeek", icon: DeepSeekIcon, category: "AI Tools & Packages" },
   { id: 27, name: "Matplotlib", icon: MatplotlibIcon, category: "AI Tools & Packages" },
   { id: 28, name: "LLMs", icon: LLMIcon, category: "AI Tools & Packages" },
+  { id: 29, name: "Hugging Face", icon: HuggingFaceIcon, category: "AI Tools & Packages" },
 
 
 
